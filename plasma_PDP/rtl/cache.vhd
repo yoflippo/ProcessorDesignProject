@@ -8,7 +8,7 @@
 --    Software 'as is' without warranty.  Author liable for nothing.
 -- DESCRIPTION:
 --    4KB unified cache that uses the lower 4KB of the 8KB cache_ram.  
---    Only lowest 2MB of DDR is cached.
+--    Only lowest 2MB of DDR is cached.sertyuiuytrewertyuiuytrertyuytrertyu
 ---------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
