@@ -55,3 +55,4 @@ begin
         end if;
     end if;
 end process; -- Actual signal assignment takes place at the end of the process
+-- added a new line 
