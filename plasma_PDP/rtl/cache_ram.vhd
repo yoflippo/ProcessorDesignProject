@@ -81,7 +81,7 @@ begin
       data_read <= block_do(conv_integer(block_sel_buf));
    end process;
 	
-	-- BLOCKS generation -- MS: One Block is associated with 8 kB of RAMB16_S9 blocks
+	-- BLOCKS generation -- MS: One Block is associated with 8 kB of RAMB16_S9 blocks (e.g. 4 * RAMB16_S9)
    block0: if (block_count > 0) generate
 	begin
 
