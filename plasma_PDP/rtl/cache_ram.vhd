@@ -52,7 +52,7 @@ architecture logic of cache_ram is
    --Block enable with 1 bit per memory block
    signal block_enable: std_logic_vector(7 downto 0);
 
-   --Block Data Out
+   --Block Data Out -- 8 * 32 vector
    signal block_do: mem32_vector(7 downto 0);
 
    --Remember which block was selected
@@ -81,13 +81,13 @@ begin
       data_read <= block_do(conv_integer(block_sel_buf));
    end process;
 	
-	-- BLOCKS generation
+	-- BLOCKS generation -- MS: One Block is associated with 8 kB of RAMB16_S9 blocks (e.g. 4 * RAMB16_S9)
    block0: if (block_count > 0) generate
 	begin
 
     ram_byte3 : RAMB16_S9
    generic map (
-INIT_00 => X"000000000000000000000000000000000000000000000000000000000c080400",
+INIT_00 => X"000000000000000000000000000000000000000000000000000000000c080400", -- MS: 32 bytes (2^5) * 64 (2^6) = 2kB block 
 INIT_01 => X"0000000000000000000000000000000000000000000000000000000000000000",
 INIT_02 => X"0000000000000000000000000000000000000000000000000000000000000000",
 INIT_03 => X"0000000000000000000000000000000000000000000000000000000000000000",
@@ -153,7 +153,7 @@ INIT_3E => X"0000000000000000000000000000000000000000000000000000000000000000",
 INIT_3F => X"0000000000000000000000000000000000000000000000000000000000000000"
 )
     port map (
-      DO   => block_do(0)(31 downto 24), 
+      DO   => block_do(0)(31 downto 24),  --MS: read one byte from RAMB16_S9 first component
       DOP  => open, 
       ADDR => block_addr,
       CLK  => clk, 
