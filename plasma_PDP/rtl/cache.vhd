@@ -98,7 +98,7 @@ begin
       end case; --state
 
       if state = STATE_IDLE then    --check if next access in cached range
-         cache_address <= '0' & address_next(11 downto 2);
+         cache_address <= address_next(12 downto 2); -- change: to 12 concatenation with 0 removed
          if address_next(30 downto 21) = "0010000000" then  --first 2MB of DDR
             cache_access <= '1';
             if byte_we_next = "0000" then     --read cycle
