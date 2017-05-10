@@ -70,7 +70,7 @@ begin
                   "00000000";
   
    proc_blocksel: process (clk, block_sel) is
-   begin
+   begin					-- TvE: register to buffer block select
       if rising_edge(clk) then 
          block_sel_buf <= block_sel;
       end if;
