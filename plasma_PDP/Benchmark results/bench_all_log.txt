@@ -1,0 +1,27 @@
+
+============================================= Programming FPGA ... 
+
+INFO:iMPACT:1777 - 
+   Reading /opt/Xilinx/14.7/ISE_DS/ISE/virtex4/data/xc4vfx60.bsd...
+INFO:iMPACT:501 - '1': Added Device xc4vfx60 successfully.
+INFO:iMPACT:1777 - 
+   Reading /opt/Xilinx/14.7/ISE_DS/ISE/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream
+   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '2': Added Device xc4vfx60 successfully.
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1111 1110 0000 0000 0000 0000 
+INFO:iMPACT:579 - '2': Completed downloading bit file to device.
+INFO:iMPACT:188 - '2': Programming completed successfully.
+INFO:iMPACT - '2': Checking done pin....done.
+
+============================================= Sending benchmark image to DDR memory ...
+INFO:UART write: Sending 1317860 bytes
+INFO:UART write: Waiting for completion..
+INFO:UART write: Writing has completed succesfully.
+============================================= Reading benchmark results ...
+INFO:UART read: Waiting for completion..
+INFO:UART read: Reading has completed succesfully.
+

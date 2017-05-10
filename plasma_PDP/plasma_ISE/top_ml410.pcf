@@ -1,0 +1,1611 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed May 10 00:56:58 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "fpga_0_RS232_Uart_1_ctsN_pin" LOCATE = SITE "G6" LEVEL 1;
+COMP "fpga_0_RS232_Uart_1_sin_pin" LOCATE = SITE "E6" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQS_pin<0>" LOCATE = SITE "F20" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQS_pin<1>" LOCATE = SITE "G20" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQS_pin<2>" LOCATE = SITE "G25" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQS_pin<3>" LOCATE = SITE "F25" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DM_pin<0>" LOCATE = SITE "F21" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DM_pin<1>" LOCATE = SITE "G22" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DM_pin<2>" LOCATE = SITE "E23" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DM_pin<3>" LOCATE = SITE "G23" LEVEL 1;
+COMP "fpga_0_RS232_Uart_1_rtsN_pin" LOCATE = SITE "F6" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<0>" LOCATE = SITE "P24" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<1>" LOCATE = SITE "P22" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<2>" LOCATE = SITE "N22" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<3>" LOCATE = SITE "N23" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<4>" LOCATE = SITE "N24" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<5>" LOCATE = SITE "M23" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<6>" LOCATE = SITE "L24" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<7>" LOCATE = SITE "L25" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<8>" LOCATE = SITE "L26" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<9>" LOCATE = SITE "K23" LEVEL 1;
+COMP "fpga_0_RS232_Uart_1_sout_pin" LOCATE = SITE "D6" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<0>" LOCATE = SITE "E17" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<1>" LOCATE = SITE "E18" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<2>" LOCATE = SITE "F18" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<3>" LOCATE = SITE "G18" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<4>" LOCATE = SITE "F19" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<5>" LOCATE = SITE "E19" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<6>" LOCATE = SITE "D21" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<7>" LOCATE = SITE "E21" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<8>" LOCATE = SITE "G21" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<9>" LOCATE = SITE "H20" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<10>" LOCATE = SITE "J20" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<11>" LOCATE = SITE "J21" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<20>" LOCATE = SITE "D22" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<12>" LOCATE = SITE "K21" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<21>" LOCATE = SITE "D24" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<13>" LOCATE = SITE "L21" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<30>" LOCATE = SITE "E24" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<22>" LOCATE = SITE "D25" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<14>" LOCATE = SITE "J22" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<31>" LOCATE = SITE "E22" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<23>" LOCATE = SITE "C28" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<15>" LOCATE = SITE "H22" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<24>" LOCATE = SITE "F23" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<16>" LOCATE = SITE "C22" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<25>" LOCATE = SITE "F24" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<17>" LOCATE = SITE "C23" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<26>" LOCATE = SITE "F26" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<18>" LOCATE = SITE "C24" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<27>" LOCATE = SITE "G26" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<19>" LOCATE = SITE "C25" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<28>" LOCATE = SITE "H25" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_DQ_pin<29>" LOCATE = SITE "H24" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_CKE_pin" LOCATE = SITE "H14" LEVEL 1;
+COMP "sys_clk_pin" LOCATE = SITE "J16" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_BankAddr_pin<0>" LOCATE = SITE "J25" LEVEL
+        1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_BankAddr_pin<1>" LOCATE = SITE "J26" LEVEL
+        1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_CSn_pin" LOCATE = SITE "C27" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_CASn_pin" LOCATE = SITE "D26" LEVEL 1;
+COMP "fpga_0_DDR_CLK_FB" LOCATE = SITE "K18" LEVEL 1;
+COMP "sys_rst_pin" LOCATE = SITE "H7" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Clk_pin" LOCATE = SITE "F28" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_WEn_pin" LOCATE = SITE "E27" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<10>" LOCATE = SITE "K24" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<11>" LOCATE = SITE "K26" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Addr_pin<12>" LOCATE = SITE "J24" LEVEL 1;
+COMP "fpga_0_LEDs_8Bit_GPIO_IO_pin<0>" LOCATE = SITE "AF19" LEVEL 1;
+COMP "fpga_0_LEDs_8Bit_GPIO_IO_pin<1>" LOCATE = SITE "AD5" LEVEL 1;
+COMP "fpga_0_LEDs_8Bit_GPIO_IO_pin<2>" LOCATE = SITE "AD6" LEVEL 1;
+COMP "fpga_0_LEDs_8Bit_GPIO_IO_pin<3>" LOCATE = SITE "AD7" LEVEL 1;
+COMP "fpga_0_LEDs_8Bit_GPIO_IO_pin<4>" LOCATE = SITE "AB8" LEVEL 1;
+COMP "fpga_0_LEDs_8Bit_GPIO_IO_pin<5>" LOCATE = SITE "AC7" LEVEL 1;
+COMP "fpga_0_LEDs_8Bit_GPIO_IO_pin<6>" LOCATE = SITE "AC9" LEVEL 1;
+COMP "fpga_0_LEDs_8Bit_GPIO_IO_pin<7>" LOCATE = SITE "AC10" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_RASn_pin" LOCATE = SITE "D27" LEVEL 1;
+COMP "fpga_0_DDR_SDRAM_32Mx64_DDR_Clkn_pin" LOCATE = SITE "E28" LEVEL 1;
+PIN
+        u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0_pins<11>
+        = BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0"
+        PINNAME CLKA;
+PIN
+        u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte1_pins<11>
+        = BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte1"
+        PINNAME CLKA;
+PIN
+        u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte2_pins<11>
+        = BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte2"
+        PINNAME CLKA;
+PIN
+        u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte3_pins<11>
+        = BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte3"
+        PINNAME CLKA;
+PIN u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_pins<11> = BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag" PINNAME CLKA;
+PIN u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte0_pins<11> = BEL
+        "u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte0" PINNAME CLKA;
+PIN u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte1_pins<11> = BEL
+        "u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte1" PINNAME CLKA;
+PIN u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte2_pins<11> = BEL
+        "u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte2" PINNAME CLKA;
+PIN u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte3_pins<11> = BEL
+        "u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte3" PINNAME CLKA;
+TIMEGRP clk = BEL "u1_plasma_top/u0_clk/clk_bufg_in" BEL
+        "u1_plasma_top/u0_clk/CLK_BUF" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_10" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_11" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/bank_open_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_12" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_6" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_13" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_7" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/bank_open_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_8" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_14" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/bank_open_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/write_prev" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_15" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/bank_open_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_20" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_9" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_21" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_16" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_23" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_22" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_17" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_18" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_24" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_19" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_30" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_26" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_25" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_31" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_27" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_28" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/clk_p" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_29" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_6" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_7" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_8" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_9" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_10" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_11" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_0_12" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_6" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_7" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_8" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_9" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_10" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_11" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_1_12" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_6" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_7" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_8" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_9" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_10" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_11" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_2_12" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_6" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_7" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_8" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_9" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_10" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_11" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/address_row_3_12" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cke_reg" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/write_active" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/refresh_cnt_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/refresh_cnt_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/refresh_cnt_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/refresh_cnt_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/refresh_cnt_4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/refresh_cnt_5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/refresh_cnt_6" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/refresh_cnt_7" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/state_prev_FSM_FFd2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/state_prev_FSM_FFd4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/state_prev_FSM_FFd5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/state_prev_FSM_FFd6" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/state_prev_FSM_FFd7" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/state_prev_FSM_FFd8" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/state_prev_FSM_FFd9" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/state_prev_FSM_FFd1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/state_prev_FSM_FFd3" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_2" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_0" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_1" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_5" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_3" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_4" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_8" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_6" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_7" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_11" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_9" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_10" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/wait_cnt_7" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/wait_cnt_6" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/wait_cnt_5" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/wait_cnt_4" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/wait_cnt_3" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/wait_cnt_2" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/wait_cnt_1" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/wait_cnt_0" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_reg_0" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_reg_1" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_reg_2" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_reg_3" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_reg_4" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_reg_5" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_reg_6" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_reg_7" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_reg_8" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/state_reg_3" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/state_reg_2" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/state_reg_1" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/state_reg_0" BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block_sel_buf_2"
+        BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block_sel_buf_1"
+        BEL
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block_sel_buf_0"
+        BEL "u1_plasma_top/u1_plasma/u1_cpu/intr_signal" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/reset_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/reset_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/reset_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/reset_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/mem_state_reg" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/byte_we_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/byte_we_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/byte_we_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/byte_we_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/upper_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/sign2_reg" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/mode_reg" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/count_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/count_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/count_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/count_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/count_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/count_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/negate_reg" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/sign_reg" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/bb_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/lower_reg_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u8_mult/aa_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/shift_funcD_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/shift_funcD_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/pause_enable_reg" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/alu_funcD_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/alu_funcD_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/alu_funcD_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/alu_funcD_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/rd_index_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/rd_index_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/rd_index_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/rd_index_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/rd_index_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/rd_index_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/mult_funcD_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/mult_funcD_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/mult_funcD_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/mult_funcD_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/reg_dest_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/c_source_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/c_source_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/c_source_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_31" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_30" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_29" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_28" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_27" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_26" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_25" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_24" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_23" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_22" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_21" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_20" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_19" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_18" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_17" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_16" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_15" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_14" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_13" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_12" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_11" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_10" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_9" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_8" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_7" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_6" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_5" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_4" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_3" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_2" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[30].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[30].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[30].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[30].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[30].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[30].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[30].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[30].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[29].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[29].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[29].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[29].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[29].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[29].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[29].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[29].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[28].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[28].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[28].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[28].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[28].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[28].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[28].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[28].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[27].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[27].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[27].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[27].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[27].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[27].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[27].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[27].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[26].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[26].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[26].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[26].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[26].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[26].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[26].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[26].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[25].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[25].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[25].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[25].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[25].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[25].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[25].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[25].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[24].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[24].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[24].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[24].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[24].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[24].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[24].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[24].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[23].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[23].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[23].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[23].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[23].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[23].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[23].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[23].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[22].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[22].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[22].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[22].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[22].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[22].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[22].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[22].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[21].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[21].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[21].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[21].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[21].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[21].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[21].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[21].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[20].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[20].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[20].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[20].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[20].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[20].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[20].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[20].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[19].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[19].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[19].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[19].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[19].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[19].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[19].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[19].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[18].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[18].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[18].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[18].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[18].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[18].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[18].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[18].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[17].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[17].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[17].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[17].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[17].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[17].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[17].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[17].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[16].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[16].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[16].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[16].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[16].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[16].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[16].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[16].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[15].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[15].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[15].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[15].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[15].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[15].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[15].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[15].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[14].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[14].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[14].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[14].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[14].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[14].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[14].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[14].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[12].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[12].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[12].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[12].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[12].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[12].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[12].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[12].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[11].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[11].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[11].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[11].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[11].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[11].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[11].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[11].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[10].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[10].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[10].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[10].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[10].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[10].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[10].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[10].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[9].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[9].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[9].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[9].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[9].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[9].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[9].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[9].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[8].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[8].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[8].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[8].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[8].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[8].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[8].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[8].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[7].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[7].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[7].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[7].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[7].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[7].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[7].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[7].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[6].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[6].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[6].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[6].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[6].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[6].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[6].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[6].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[5].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[5].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[5].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[5].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[5].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[5].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[5].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[5].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[4].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[4].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[4].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[4].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[4].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[4].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[4].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[4].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[2].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[2].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[2].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[2].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[2].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[2].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[2].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[2].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[1].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[1].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[1].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[1].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[1].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[1].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[1].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[1].reg_bit1a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[0].reg_bit2b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[0].reg_bit2b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[0].reg_bit2a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[0].reg_bit2a.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[0].reg_bit1b.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[0].reg_bit1b.SLICEM_G"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[0].reg_bit1a.SLICEM_F"
+        BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[0].reg_bit1a.SLICEM_G"
+        BEL "u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/intr_enable_reg" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_17" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_read_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_read_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_read_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_read_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_read_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_read_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_read_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_read_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_16" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_10" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_13" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_11" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_12" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_14" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_save_reg_15" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/read_value_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/read_value_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/read_value_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/read_value_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/read_value_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/read_value_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/read_value_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/bits_read_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/bits_read_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/bits_read_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/bits_read_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/bits_write_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/bits_write_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/bits_write_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/bits_write_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/delay_read_reg_9" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_write_reg_8" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_write_reg_7" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_write_reg_6" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_write_reg_5" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_write_reg_4" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_write_reg_3" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_write_reg_1" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_write_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u3_uart/data_write_reg_2" BEL
+        "u1_plasma_top/u1_plasma/u2_boot_ram/block_sel_buf_0" BEL
+        "u1_plasma_top/u1_plasma/u2_boot_ram/block_sel_buf_1" BEL
+        "u1_plasma_top/u1_plasma/u2_boot_ram/block_sel_buf_2" BEL
+        "u1_plasma_top/u1_plasma/counter_hi_reg_39" BEL
+        "u1_plasma_top/u1_plasma/counter_hi_reg_38" BEL
+        "u1_plasma_top/u1_plasma/counter_hi_reg_37" BEL
+        "u1_plasma_top/u1_plasma/counter_hi_reg_36" BEL
+        "u1_plasma_top/u1_plasma/counter_hi_reg_35" BEL
+        "u1_plasma_top/u1_plasma/counter_hi_reg_34" BEL
+        "u1_plasma_top/u1_plasma/counter_hi_reg_33" BEL
+        "u1_plasma_top/u1_plasma/counter_hi_reg_32" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_39" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_38" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_37" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_36" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_35" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_34" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_33" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_32" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_31" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_30" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_29" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_28" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_27" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_26" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_25" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_24" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_23" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_22" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_21" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_20" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_19" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_18" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_17" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_16" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_15" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_14" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_13" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_12" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_11" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_10" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_9" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_8" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_7" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_6" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_5" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_4" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_3" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_2" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_1" BEL
+        "u1_plasma_top/u1_plasma/counter_reg_0" BEL
+        "u1_plasma_top/u1_plasma/irq_mask_reg_7" BEL
+        "u1_plasma_top/u1_plasma/irq_mask_reg_6" BEL
+        "u1_plasma_top/u1_plasma/irq_mask_reg_5" BEL
+        "u1_plasma_top/u1_plasma/irq_mask_reg_4" BEL
+        "u1_plasma_top/u1_plasma/irq_mask_reg_3" BEL
+        "u1_plasma_top/u1_plasma/irq_mask_reg_2" BEL
+        "u1_plasma_top/u1_plasma/irq_mask_reg_1" BEL
+        "u1_plasma_top/u1_plasma/irq_mask_reg_0" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_31" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_30" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_29" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_28" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_27" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_26" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_25" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_24" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_23" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_22" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_21" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_20" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_19" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_18" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_17" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_16" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_15" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_14" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_13" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_12" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_11" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_10" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_9" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_8" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_7" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_6" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_5" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_4" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_3" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_2" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_1" BEL
+        "u1_plasma_top/u1_plasma/gpio0_reg_0" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1" BEL
+        "u1_plasma_top/u2_ddr/u1_ddr_init/init_step_3_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_27_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/alu_funcD_0_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/alu_funcD_1_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/alu_funcD_2_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/alu_funcD_3_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_15_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_1_1" BEL
+        "u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/a_busD_0_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/clk_p_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/clk_p_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/clk_p_3" PIN
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0_pins<11>"
+        PIN
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte1_pins<11>"
+        PIN
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte2_pins<11>"
+        PIN
+        "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte3_pins<11>"
+        PIN "u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_tag_pins<11>"
+        PIN "u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte0_pins<11>"
+        PIN "u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte1_pins<11>"
+        PIN "u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte2_pins<11>"
+        PIN "u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte3_pins<11>";
+TIMEGRP u1_plasma_top_u0_clk_clk_2x_bufg_in = BEL
+        "u1_plasma_top/u0_clk/clk_bufg_in" BEL
+        "u1_plasma_top/u0_clk/CLK2X_BUF" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_10" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_11" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_12" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_6" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_13" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_7" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_8" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_14" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_15" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_20" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_9" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_21" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_16" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_23" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_22" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_17" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_18" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_24" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_19" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_30" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_26" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_25" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_31" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_27" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_28" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/clk_p" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_29" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cycle_count2_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cycle_count2_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cycle_count2_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_29" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_10" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_11" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_12" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_13" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_14" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_20" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_15" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_21" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_16" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_17" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_3" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_22" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_4" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_23" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_18" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_5" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_19" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_24" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_6" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_30" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_25" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_7" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_26" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_31" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_8" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_27" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_9" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_28" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_42" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_43" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_44" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_45" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_46" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_47" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_32" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_33" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_34" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_35" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_36" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_37" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_38" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_39" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_40" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_write2_41" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/clk_p_1" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/clk_p_2" BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/clk_p_3";
+PIN
+        DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0_pins<3>
+        = BEL
+        "DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0"
+        PINNAME CLKIN;
+TIMEGRP board_clk = PIN
+        "DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0_pins<3>";
+TS_board_clk = PERIOD TIMEGRP "board_clk" 10 ns HIGH 50%;
+TS_u1_plasma_top_u0_clk_clk_2x_bufg_in = PERIOD TIMEGRP
+        "u1_plasma_top_u0_clk_clk_2x_bufg_in" TS_board_clk / 0.791666667 HIGH
+        50%;
+TS_clk = PERIOD TIMEGRP "clk" TS_u1_plasma_top_u0_clk_clk_2x_bufg_in * 2 PHASE
+        0.31 ns HIGH 50%;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_29_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_29" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_10_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_10" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_11_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_11" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_12_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_12" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_13_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_13" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_0_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_0" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_14_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_14" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_1_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_1" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_20_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_20" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_15_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_15" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_2_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_2" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_21_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_21" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_16_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_16" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_17_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_17" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_3_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_3" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_22_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_22" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_4_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_4" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_23_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_23" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_18_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_18" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_5_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_5" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_19_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_19" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_24_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_24" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_6_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_6" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_30_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_30" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_25_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_25" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_7_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_7" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_26_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_26" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_31_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_31" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_8_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_8" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_27_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_27" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_9_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_9" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_28_pins<3> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_28" PINNAME Q;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001_pins<4> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001" PINNAME D;
+PIN u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001_pins<4> = BEL
+        "u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001" PINNAME D;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_29_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_10_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_11_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_12_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_13_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_0_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_14_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_1_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_20_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_15_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_2_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_21_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_16_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_17_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_3_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_22_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_4_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_23_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_18_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_5_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_19_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_24_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_6_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_30_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_25_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_7_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_26_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_31_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_8_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_27_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_9_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_28_pins<3>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001_pins<4>" TIG = TS_clk;
+PIN "u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001_pins<4>" TIG = TS_clk;
+PIN fpga_0_RS232_Uart_1_rtsN_pin_OBUF_pins<1> = BEL
+        "fpga_0_RS232_Uart_1_rtsN_pin_OBUF" PINNAME OUT;
+PIN fpga_0_RS232_Uart_1_sout_pin_OBUF_pins<1> = BEL
+        "fpga_0_RS232_Uart_1_sout_pin_OBUF" PINNAME OUT;
+PIN fpga_0_LEDs_8Bit_GPIO_IO_pin_7_OBUF_pins<1> = BEL
+        "fpga_0_LEDs_8Bit_GPIO_IO_pin_7_OBUF" PINNAME OUT;
+PIN fpga_0_LEDs_8Bit_GPIO_IO_pin_6_OBUF_pins<1> = BEL
+        "fpga_0_LEDs_8Bit_GPIO_IO_pin_6_OBUF" PINNAME OUT;
+PIN fpga_0_LEDs_8Bit_GPIO_IO_pin_5_OBUF_pins<1> = BEL
+        "fpga_0_LEDs_8Bit_GPIO_IO_pin_5_OBUF" PINNAME OUT;
+PIN fpga_0_LEDs_8Bit_GPIO_IO_pin_4_OBUF_pins<1> = BEL
+        "fpga_0_LEDs_8Bit_GPIO_IO_pin_4_OBUF" PINNAME OUT;
+PIN fpga_0_LEDs_8Bit_GPIO_IO_pin_3_OBUF_pins<1> = BEL
+        "fpga_0_LEDs_8Bit_GPIO_IO_pin_3_OBUF" PINNAME OUT;
+PIN fpga_0_LEDs_8Bit_GPIO_IO_pin_2_OBUF_pins<1> = BEL
+        "fpga_0_LEDs_8Bit_GPIO_IO_pin_2_OBUF" PINNAME OUT;
+PIN fpga_0_LEDs_8Bit_GPIO_IO_pin_1_OBUF_pins<1> = BEL
+        "fpga_0_LEDs_8Bit_GPIO_IO_pin_1_OBUF" PINNAME OUT;
+PIN fpga_0_LEDs_8Bit_GPIO_IO_pin_0_OBUF_pins<1> = BEL
+        "fpga_0_LEDs_8Bit_GPIO_IO_pin_0_OBUF" PINNAME OUT;
+PIN fpga_0_RS232_Uart_1_sin_pin_pins<0> = BEL "fpga_0_RS232_Uart_1_sin_pin"
+        PINNAME PAD;
+PIN sys_rst_pin_pins<0> = BEL "sys_rst_pin" PINNAME PAD;
+PIN fpga_0_RS232_Uart_1_ctsN_pin_pins<0> = BEL "fpga_0_RS232_Uart_1_ctsN_pin"
+        PINNAME PAD;
+PIN "fpga_0_RS232_Uart_1_rtsN_pin_OBUF_pins<1>" TIG;
+PIN "fpga_0_RS232_Uart_1_sout_pin_OBUF_pins<1>" TIG;
+PIN "fpga_0_LEDs_8Bit_GPIO_IO_pin_7_OBUF_pins<1>" TIG;
+PIN "fpga_0_LEDs_8Bit_GPIO_IO_pin_6_OBUF_pins<1>" TIG;
+PIN "fpga_0_LEDs_8Bit_GPIO_IO_pin_5_OBUF_pins<1>" TIG;
+PIN "fpga_0_LEDs_8Bit_GPIO_IO_pin_4_OBUF_pins<1>" TIG;
+PIN "fpga_0_LEDs_8Bit_GPIO_IO_pin_3_OBUF_pins<1>" TIG;
+PIN "fpga_0_LEDs_8Bit_GPIO_IO_pin_2_OBUF_pins<1>" TIG;
+PIN "fpga_0_LEDs_8Bit_GPIO_IO_pin_1_OBUF_pins<1>" TIG;
+PIN "fpga_0_LEDs_8Bit_GPIO_IO_pin_0_OBUF_pins<1>" TIG;
+PIN "fpga_0_RS232_Uart_1_sin_pin_pins<0>" TIG;
+PIN "sys_rst_pin_pins<0>" TIG;
+PIN "fpga_0_RS232_Uart_1_ctsN_pin_pins<0>" TIG;
+SCHEMATIC END;
+

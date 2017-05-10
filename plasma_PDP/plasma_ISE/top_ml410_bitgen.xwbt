@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE/top_ml410.ncd
+OUTFILE=/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE/top_ml410.bit
+FAMILY=Virtex4
+PART=xc4vfx60-11ff1152
+WORKINGDIR=/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE
+LICENSE=ISE
+USER_INFO=174118803_178259257_210646183_529

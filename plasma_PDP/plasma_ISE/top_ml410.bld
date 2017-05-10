@@ -1,0 +1,57 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc ml410.ucf -p xc4vfx60-ff1152-11 top_ml410.ngc
+top_ml410.ngd
+
+Reading NGO file
+"/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE/top_ml410.ngc
+" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "ml410.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:137 - Constraint <Net fpga_0_DDR_CLK_FB TNM_NET =
+   fpga_0_DDR_CLK_FB;> [ml410.ucf(34)]: No appropriate instances for the TNM
+   constraint are driven by "fpga_0_DDR_CLK_FB".
+
+INFO:ConstraintSystem:178 - TNM 'board_clk', used in period specification
+   'TS_board_clk', was traced into DCM_ADV instance
+   u1_plasma_top/u0_clk/DCM_BASE0. The following new TNM groups and period
+   specifications were generated at the DCM_ADV output(s): 
+   CLKFX: <TIMESPEC TS_u1_plasma_top_u0_clk_clk_2x_bufg_in = PERIOD
+   "u1_plasma_top_u0_clk_clk_2x_bufg_in" TS_board_clk / 0.791666667 HIGH 50%>
+
+WARNING:ConstraintSystem:194 - The TNM 'fpga_0_DDR_CLK_FB', does not directly or
+   indirectly drive any flip-flops, latches and/or RAMs and is not actively used
+   by any referencing constraint.
+
+Done...
+
+INFO:NgdBuild:1222 - Setting CLKIN_PERIOD attribute associated with DCM instance
+   u1_plasma_top/u0_clk/DCM_BASE0 to 10.000000 ns based on the period
+   specification (<TIMESPEC TS_board_clk = PERIOD "board_clk" 10000 ps;>
+   [ml410.ucf(16)]).
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   2
+
+Total memory usage is 446380 kilobytes
+
+Writing NGD file "top_ml410.ngd" ...
+Total REAL time to NGDBUILD completion:  15 sec
+Total CPU time to NGDBUILD completion:   8 sec
+
+Writing NGDBUILD log file "top_ml410.bld"...

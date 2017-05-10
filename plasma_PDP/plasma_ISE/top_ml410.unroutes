@@ -1,0 +1,14 @@
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed May 10 01:00:33 2017
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   fpga_0_DDR_CLK_FB_IBUF
+   fpga_0_RS232_Uart_1_ctsN_pin_IBUF
+
+

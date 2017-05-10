@@ -1,0 +1,129 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+ 
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -tsi
+top_ml410.tsi -s 11 -n 3 -fastpaths -xml top_ml410.twx top_ml410.ncd -o
+top_ml410.twr top_ml410.pcf -ucf ml410.ucf
+
+
+Design file:              top_ml410.ncd
+Physical constraint file: top_ml410.pcf
+Report level:             timespec interaction report
+--------------------------------------------------------------------------------
+********************************************************************************
+*                                                                              *
+* This timing constraint interaction report can be used to understand which    *
+* timing constraints take precedence when two or more timing constraints cover *
+* a common set of timing paths.                                                *
+*                                                                              *
+* Constraint coverage over a set of paths is based on the following precedence *
+* order (lowest to highest precedence):                                        *
+*                                                                              *
+*   Unconstrained path analysis                                                *
+*   PERIOD or FREQUENCY, allclocknets                                          *
+*   PERIOD or FREQUENCY, time group                                            *
+*   PERIOD or FREQUENCY, net                                                   *
+*   OFFSET IN/OUT, global                                                      *
+*   OFFSET IN/OUT, time group                                                  *
+*   OFFSET IN/OUT, pad                                                         *
+*   MAXDELAY path, with pre-defined FROM and TO groups                         *
+*   MAXDELAY path, with user-defined FROM or TO group                          *
+*   MAXDELAY path, with user-defined FROM and TO groups                        *
+*   MAXDELAY path, with intermediate (THRU) points                             *
+*   PATH definition                                                            *
+*   TIG path                                                                   *
+*                                                                              *
+* When two or more timing constraints have the same precedence, an optional    *
+* PRIORITY qualifier can be used to identify the constraint that should take   *
+* precedence for path coverage. If no PRIORITY qualifier exists, the last      *
+* constraint encountered in the constraint file will take precedence.          *
+*                                                                              *
+* The following report lists constraints interactions, where lower-priority    *
+* constraints had paths removed due to higher-priority constraints. For each   *
+* interaction, the higher-priority constraint and number of paths removed are  *
+* listed.                                                                      *
+*                                                                              *
+* In addition, if two or more interacting constraints have a similar type, a   *
+* set of potential constraint consolidations may be reported. It may be        *
+* possible to reduce the memory and runtime required for timing analysis by    *
+* combining similar constraints.                                               *
+*                                                                              *
+* A clock domain overlap report will be produced when multiple                 *
+* period/frequency constraints are defined to cover the same synchronous       *
+* destination elements. This overlap report displays the set of overlapping    *
+* constraints in precedence order (lowest to highest precedence) along with    *
+* the list of synchronous destination elements shared by those constraints.    *
+* The destination elements are listed using their logical resource name        *
+* followed parenthetically by their physical resource name and physical clock  *
+* pin name.                                                                    *
+*                                                                              *
+* The clock domain overlap report can be used to detect and correct            *
+* overlapping constraint specifications that may be unintentionally altering   *
+* the desired clock domain membership and resultant timing analysis of a       *
+* design.                                                                      *
+*                                                                              *
+********************************************************************************
+
+Constraint Interaction Report
+=============================
+
+Constraint interactions for TS_u1_plasma_top_u0_clk_clk_2x_bufg_in = PERIOD TIMEGRP         "u1_plasma_top_u0_clk_clk_2x_bufg_in" TS_board_clk / 0.791666667 HIGH         50%;
+      36350 paths removed by TS_clk = PERIOD TIMEGRP "clk" TS_u1_plasma_top_u0_clk_clk_2x_bufg_in * 2 PHASE         0.31 ns HIGH 50%;
+
+
+Clock Domain Overlap Report
+===========================
+
+TS_u1_plasma_top_u0_clk_clk_2x_bufg_in = PERIOD TIMEGRP         "u1_plasma_top_u0_clk_clk_2x_bufg_in" TS_board_clk / 0.791666667 HIGH         50%;
+TS_clk = PERIOD TIMEGRP "clk" TS_u1_plasma_top_u0_clk_clk_2x_bufg_in * 2 PHASE         0.31 ns HIGH 50%;
+{
+   u1_plasma_top/u2_ddr/u2_ddr/clk_p_3 (u1_plasma_top/u2_ddr/u2_ddr/clk_p_3.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/clk_p_2 (u1_plasma_top/u2_ddr/u2_ddr/clk_p_2.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/clk_p_1 (u1_plasma_top/u2_ddr/u2_ddr/clk_p_1.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_2 (u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<2>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_3 (u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<3>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_8 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<8>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_9 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<9>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_10 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<10>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_12 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<12>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_13 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<13>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_14 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<14>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_15 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<15>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_1 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<1>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_0 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<1>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_3 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<3>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_2 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<3>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_5 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<5>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_4 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<5>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_6 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<6>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_0 (u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<0>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 (u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 (u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_20 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<20>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_31 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<31>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_30 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<31>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_22 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<22>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_25 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<25>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_24 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<25>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_27 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<27>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_26 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<27>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_29 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_28 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/clk_p (u1_plasma_top/u2_ddr/u2_ddr/clk_p.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_1 (u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<1>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 (u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_11 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<11>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_21 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<21>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_23 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<23>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_16 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<16>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_7 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<7>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_17 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<17>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_18 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<18>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_19 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<19>.CLK)
+   u1_plasma_top/u0_clk/clk_bufg_in (u1_plasma_top/u0_clk/clk_bufg_in.CLK)
+}
+
+Timespec interaction analysis completed Wed May 10 01:01:25 2017
+--------------------------------------------------------------------------------
+
