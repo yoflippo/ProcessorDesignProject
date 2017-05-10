@@ -114,7 +114,7 @@ begin
             state_next <= STATE_IDLE;
          end if;
       else
-         cache_address <= '0' & cpu_address(11 downto 2);
+         cache_address <= cpu_address(12 downto 2); -- TvE: changed 11 downto 2 concatenation with 0 to 12 downto 2
          cache_access <= '0';
          if state = STATE_MISSED then
             cache_we <= '1';                  --update cache tag

@@ -246,12 +246,12 @@ begin  --architecture
       if cache_access = '1' then    --Check if cache hit or write through
          cache_ram_enable <= '1';
          cache_ram_byte_we <= byte_we_next;
-         cache_ram_address(31 downto 2) <= ZERO(31 downto 13) & address_next(12 downto 2); -- changed to 12 for complete address range
+         cache_ram_address(31 downto 2) <= ZERO(31 downto 13) & address_next(12 downto 2); -- TvE: These zeroes have to change to go from 8 to 16 kBchanged to 12 for complete address range
          cache_ram_data_w <= cpu_data_w;
       elsif cache_miss = '1' then  --Update cache after cache miss
          cache_ram_enable <= '1';
          cache_ram_byte_we <= "1111";
-         cache_ram_address(31 downto 2) <= ZERO(31 downto 13) & address_next(12 downto 2);
+         cache_ram_address(31 downto 2) <= ZERO(31 downto 13) & address_next(12 downto 2); -- TvE: These zeroes have to change to go from 8 to 16 kB cache
          cache_ram_data_w <= data_read;
       else                         --Disable cache ram when Normal non-cache access
          cache_ram_enable <= '0';
