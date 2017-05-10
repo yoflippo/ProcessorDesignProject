@@ -5,7 +5,11 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
+<<<<<<< Updated upstream
   <application stringID="Xst" timeStamp="Wed May 10 00:52:24 2017">
+=======
+  <application stringID="Xst" timeStamp="Wed May 10 11:42:45 2017">
+>>>>>>> Stashed changes
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -52,8 +56,13 @@
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
+<<<<<<< Updated upstream
           <item stringID="arch" value="Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz"/>
           <item stringID="speed" value="1596.372 MHz"/>
+=======
+          <item stringID="arch" value="Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz"/>
+          <item stringID="speed" value="2393.422 MHz"/>
+>>>>>>> Stashed changes
         </row>
       </table>
     </section>
@@ -185,8 +194,13 @@
       </item>
     </section>
     <section stringID="XST_FINAL_REGISTER_REPORT">
+<<<<<<< Updated upstream
       <item dataType="int" stringID="XST_REGISTERS" value="770">
         <item dataType="int" stringID="XST_FLIPFLOPS" value="770"/>
+=======
+      <item dataType="int" stringID="XST_REGISTERS" value="772">
+        <item dataType="int" stringID="XST_FLIPFLOPS" value="772"/>
+>>>>>>> Stashed changes
       </item>
     </section>
     <section stringID="XST_PARTITION_REPORT">
@@ -206,6 +220,7 @@
         <item stringID="XST_IOS" value="77"/>
       </section>
       <section stringID="XST_CELL_USAGE">
+<<<<<<< Updated upstream
         <item dataType="int" stringID="XST_BELS" value="3947">
           <item dataType="int" stringID="XST_GND" value="1"/>
           <item dataType="int" stringID="XST_INV" value="24"/>
@@ -229,12 +244,41 @@
           <item dataType="int" stringID="XST_FDC" value="241"/>
           <item dataType="int" stringID="XST_FDC1" value="39"/>
           <item dataType="int" stringID="XST_FDCE" value="367"/>
+=======
+        <item dataType="int" stringID="XST_BELS" value="3972">
+          <item dataType="int" stringID="XST_GND" value="1"/>
+          <item dataType="int" stringID="XST_INV" value="22"/>
+          <item dataType="int" stringID="XST_LUT1" value="8"/>
+          <item dataType="int" stringID="XST_LUT2" value="176"/>
+          <item dataType="int" stringID="XST_LUT2D" value="43"/>
+          <item dataType="int" stringID="XST_LUT2L" value="11"/>
+          <item dataType="int" stringID="XST_LUT3" value="726"/>
+          <item dataType="int" stringID="XST_LUT3D" value="106"/>
+          <item dataType="int" stringID="XST_LUT3L" value="59"/>
+          <item dataType="int" stringID="XST_LUT4" value="2051"/>
+          <item dataType="int" stringID="XST_LUT4D" value="188"/>
+          <item dataType="int" stringID="XST_LUT4L" value="160"/>
+          <item dataType="int" stringID="XST_MUXCY" value="44"/>
+          <item dataType="int" stringID="XST_MUXF5" value="358"/>
+          <item dataType="int" stringID="XST_VCC" value="1"/>
+          <item dataType="int" stringID="XST_XORCY" value="18"/>
+        </item>
+        <item dataType="int" stringID="XST_FLIPFLOPSLATCHES" value="772">
+          <item dataType="int" stringID="XST_FD" value="5"/>
+          <item dataType="int" stringID="XST_FDC" value="243"/>
+          <item dataType="int" stringID="XST_FDC1" value="39"/>
+          <item dataType="int" stringID="XST_FDCE" value="368"/>
+>>>>>>> Stashed changes
           <item dataType="int" stringID="XST_FDCE1" value="18"/>
           <item dataType="int" stringID="XST_FDE" value="88"/>
           <item dataType="int" stringID="XST_FDP" value="2"/>
           <item dataType="int" stringID="XST_FDPE" value="9"/>
         </item>
+<<<<<<< Updated upstream
         <item dataType="int" stringID="XST_RAMS" value="137">
+=======
+        <item dataType="int" stringID="XST_RAMS" value="141">
+>>>>>>> Stashed changes
           <item dataType="int" stringID="XST_RAM16X1D" value="128"/>
         </item>
         <item dataType="int" stringID="XST_CLOCK_BUFFERS" value="3">
@@ -250,10 +294,17 @@
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
       <item stringID="XST_SELECTED_DEVICE" value="4vfx60ff1152-11"/>
+<<<<<<< Updated upstream
       <item AVAILABLE="25280" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="2101"/>
       <item AVAILABLE="50560" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="767"/>
       <item AVAILABLE="50560" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="3779"/>
       <item dataType="int" label="Number used as Logic" stringID="XST_NUMBER_USED_AS_LOGIC" value="3523"/>
+=======
+      <item AVAILABLE="25280" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="2116"/>
+      <item AVAILABLE="50560" dataType="int" label="Number of Slice Flip Flops" stringID="XST_NUMBER_OF_SLICE_FLIP_FLOPS" value="769"/>
+      <item AVAILABLE="50560" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="3806"/>
+      <item dataType="int" label="Number used as Logic" stringID="XST_NUMBER_USED_AS_LOGIC" value="3550"/>
+>>>>>>> Stashed changes
       <item dataType="int" stringID="XST_NUMBER_USED_AS_RAMS" value="256"/>
       <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="77"/>
       <item AVAILABLE="576" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="75"/>
@@ -266,7 +317,11 @@
     <section stringID="XST_ERRORS_STATISTICS">
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="22"/>
+<<<<<<< Updated upstream
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="17"/>
+=======
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="22"/>
+>>>>>>> Stashed changes
     </section>
   </application>
 

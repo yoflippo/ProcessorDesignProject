@@ -9,13 +9,18 @@ Target Device  : xc4vfx60
 Target Package : ff1152
 Target Speed   : -11
 Mapper Version : virtex4 -- $Revision: 1.55 $
+<<<<<<< Updated upstream
 Mapped Date    : Wed May 10 00:56:35 2017
+=======
+Mapped Date    : Wed May 10 11:44:09 2017
+>>>>>>> Stashed changes
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:   12
 Logic Utilization:
+<<<<<<< Updated upstream
   Number of Slice Flip Flops:           774 out of  50,560    1%
     Number of Slice FFs used for
     DCM autocalibration logic:          7 out of     774    1%
@@ -31,6 +36,23 @@ Logic Distribution:
       *See NOTES below for an explanation of the effects of unrelated logic.
   Total Number of 4 input LUTs:       3,793 out of  50,560    7%
     Number used as logic:             3,517
+=======
+  Number of Slice Flip Flops:           776 out of  50,560    1%
+    Number of Slice FFs used for
+    DCM autocalibration logic:          7 out of     776    1%
+  Number of 4 input LUTs:             3,809 out of  50,560    7%
+    Number of LUTs used for
+    DCM autocalibration logic:          4 out of   3,809    1%
+      *See INFO below for an explanation of the DCM autocalibration logic
+       added by Map
+Logic Distribution:
+  Number of occupied Slices:          2,042 out of  25,280    8%
+    Number of Slices containing only related logic:   2,042 out of   2,042 100%
+    Number of Slices containing unrelated logic:          0 out of   2,042   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       3,822 out of  50,560    7%
+    Number used as logic:             3,546
+>>>>>>> Stashed changes
     Number used as a route-thru:         13
     Number used for Dual Port RAMs:     256
       (Two LUTs used per Dual Port RAM)
@@ -42,6 +64,7 @@ Logic Distribution:
     IOB Flip Flops:                       3
   Number of BUFG/BUFGCTRLs:               3 out of      32    9%
     Number used as BUFGs:                 3
+<<<<<<< Updated upstream
   Number of FIFO16/RAMB16s:               9 out of     232    3%
     Number used as RAMB16s:               9
   Number of DCM_ADVs:                     1 out of      12    8%
@@ -51,6 +74,17 @@ Average Fanout of Non-Clock Nets:                4.25
 Peak Memory Usage:  799 MB
 Total REAL time to MAP completion:  29 secs 
 Total CPU time to MAP completion:   15 secs 
+=======
+  Number of FIFO16/RAMB16s:              13 out of     232    5%
+    Number used as RAMB16s:              13
+  Number of DCM_ADVs:                     1 out of      12    8%
+
+Average Fanout of Non-Clock Nets:                4.23
+
+Peak Memory Usage:  799 MB
+Total REAL time to MAP completion:  13 secs 
+Total CPU time to MAP completion:   10 secs 
+>>>>>>> Stashed changes
 
 NOTES:
 

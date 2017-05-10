@@ -1,0 +1,45 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mlite_pack.vhd" in Library work.
+Package <mlite_pack> compiled.
+Package body <mlite_pack> compiled.
+Compiling vhdl file "/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/cache_ram.vhd" in Library work.
+Entity <cache_ram> compiled.
+Entity <cache_ram> (Architecture <logic>) compiled.
+Compiling vhdl file "/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/cache.vhd" in Library work.
+Entity <cache> compiled.
+Entity <cache> (Architecture <logic>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+
+
+Total memory usage is 484144 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

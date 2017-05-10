@@ -84,8 +84,13 @@ TS_clk = PERIOD TIMEGRP "clk" TS_u1_plasma_top_u0_clk_clk_2x_bufg_in * 2 PHASE  
    u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_2 (u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<2>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_3 (u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<3>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_8 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<8>.CLK)
+<<<<<<< Updated upstream
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_9 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<9>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_10 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<10>.CLK)
+=======
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_10 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<10>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_11 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<11>.CLK)
+>>>>>>> Stashed changes
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_12 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<12>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_13 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<13>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_14 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<14>.CLK)
@@ -96,7 +101,12 @@ TS_clk = PERIOD TIMEGRP "clk" TS_u1_plasma_top_u0_clk_clk_2x_bufg_in * 2 PHASE  
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_2 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<3>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_5 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<5>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_4 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<5>.CLK)
+<<<<<<< Updated upstream
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_6 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<6>.CLK)
+=======
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_7 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<7>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_6 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<7>.CLK)
+>>>>>>> Stashed changes
    u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_0 (u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<0>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 (u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 (u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>.CLK)
@@ -113,17 +123,28 @@ TS_clk = PERIOD TIMEGRP "clk" TS_u1_plasma_top_u0_clk_clk_2x_bufg_in * 2 PHASE  
    u1_plasma_top/u2_ddr/u2_ddr/clk_p (u1_plasma_top/u2_ddr/u2_ddr/clk_p.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_1 (u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<1>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 (u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>.CLK)
+<<<<<<< Updated upstream
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_11 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<11>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_21 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<21>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_23 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<23>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_16 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<16>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_7 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<7>.CLK)
+=======
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_9 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<9>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_21 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<21>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_23 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<23>.CLK)
+   u1_plasma_top/u2_ddr/u2_ddr/data_write2_16 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<16>.CLK)
+>>>>>>> Stashed changes
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_17 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<17>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_18 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<18>.CLK)
    u1_plasma_top/u2_ddr/u2_ddr/data_write2_19 (u1_plasma_top/u2_ddr/u2_ddr/data_write2<19>.CLK)
    u1_plasma_top/u0_clk/clk_bufg_in (u1_plasma_top/u0_clk/clk_bufg_in.CLK)
 }
 
+<<<<<<< Updated upstream
 Timespec interaction analysis completed Wed May 10 01:01:25 2017
+=======
+Timespec interaction analysis completed Wed May 10 11:46:01 2017
+>>>>>>> Stashed changes
 --------------------------------------------------------------------------------
 

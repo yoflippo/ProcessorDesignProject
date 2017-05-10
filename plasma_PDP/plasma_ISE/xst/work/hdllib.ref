@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 AR plasma logic /home/pdp/Repository/ProcessorDesignProject/plasma_PDP/rtl/plasma.vhd sub00/vhpl37 1494402785
 EN pc_next NULL /home/pdp/Repository/ProcessorDesignProject/plasma_PDP/rtl/pc_next.vhd sub00/vhpl04 1494402752
 EN reg_bank NULL /home/pdp/Repository/ProcessorDesignProject/plasma_PDP/rtl/reg_bank.vhd sub00/vhpl10 1494402758
@@ -42,3 +43,49 @@ AR pc_next logic /home/pdp/Repository/ProcessorDesignProject/plasma_PDP/rtl/pc_n
 EN alu NULL /home/pdp/Repository/ProcessorDesignProject/plasma_PDP/rtl/alu.vhd sub00/vhpl14 1494402762
 AR boot_ram logic /home/pdp/Repository/ProcessorDesignProject/plasma_PDP/rtl/boot_ram.vhd sub00/vhpl31 1494402779
 PH mlite_pack NULL /home/pdp/Repository/ProcessorDesignProject/plasma_PDP/rtl/mlite_pack.vhd sub00/vhpl00 1494402748
+=======
+AR plasma logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/plasma.vhd sub00/vhpl37 1494409403
+EN pc_next NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/pc_next.vhd sub00/vhpl06 1494409370
+EN reg_bank NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/reg_bank.vhd sub00/vhpl12 1494409376
+EN bus_mux NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/bus_mux.vhd sub00/vhpl14 1494409378
+EN ddr_ctrl_top NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/ddr_ctrl_top.vhd sub00/vhpl38 1494409404
+AR ddr_ctrl_top logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/ddr_ctrl_top.vhd sub00/vhpl39 1494409405
+AR shifter logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/shifter.vhd sub00/vhpl19 1494409383
+EN mult NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mult.vhd sub00/vhpl20 1494409384
+EN clk_gen NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/clk_gen.vhd sub00/vhpl34 1494409400
+EN ddr_init NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/ddr_init.vhd sub00/vhpl24 1494409388
+AR mlite_cpu logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mlite_cpu.vhd sub00/vhpl29 1494409393
+EN plasma NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/plasma.vhd sub00/vhpl36 1494409402
+AR control logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/control.vhd sub00/vhpl11 1494409375
+EN ddr_ctrl NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/ddr_ctrl.vhd sub00/vhpl26 1494409390
+AR alu logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/alu.vhd sub00/vhpl17 1494409381
+AR cache logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/cache.vhd sub00/vhpl05 1494409395
+EN boot_ram NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/boot_ram.vhd sub00/vhpl30 1494409396
+AR cache_ram logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/cache_ram.vhd sub00/vhpl03 1494409369
+EN mem_ctrl NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mem_ctrl.vhd sub00/vhpl08 1494409372
+AR bus_mux logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/bus_mux.vhd sub00/vhpl15 1494409379
+EN cache NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/cache.vhd sub00/vhpl04 1494409394
+AR ddr_init logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/ddr_init.vhd sub00/vhpl25 1494409389
+EN mlite_cpu NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mlite_cpu.vhd sub00/vhpl28 1494409392
+EN shifter NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/shifter.vhd sub00/vhpl18 1494409382
+EN top_ml410 NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/top_ml410.vhd sub00/vhpl42 1494409408
+AR reg_bank ram_block /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/reg_bank.vhd sub00/vhpl13 1494409377
+EN cache_ram NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/cache_ram.vhd sub00/vhpl02 1494409368
+AR plasma_top logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/plasma_top.vhd sub00/vhpl41 1494409407
+AR mem_ctrl logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mem_ctrl.vhd sub00/vhpl09 1494409373
+EN control NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/control.vhd sub00/vhpl10 1494409374
+AR top_ml410 logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/top_ml410.vhd sub00/vhpl43 1494409409
+AR clk_gen logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/clk_gen.vhd sub00/vhpl35 1494409401
+AR ddr_ctrl logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/ddr_ctrl.vhd sub00/vhpl27 1494409391
+PB mlite_pack mlite_pack /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mlite_pack.vhd sub00/vhpl01 1494409367
+AR pipeline logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/pipeline.vhd sub00/vhpl23 1494409387
+AR mult logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mult.vhd sub00/vhpl21 1494409385
+EN uart NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/uart.vhd sub00/vhpl32 1494409398
+EN pipeline NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/pipeline.vhd sub00/vhpl22 1494409386
+AR uart logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/uart.vhd sub00/vhpl33 1494409399
+EN plasma_top NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/plasma_top.vhd sub00/vhpl40 1494409406
+AR pc_next logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/pc_next.vhd sub00/vhpl07 1494409371
+EN alu NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/alu.vhd sub00/vhpl16 1494409380
+AR boot_ram logic /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/boot_ram.vhd sub00/vhpl31 1494409397
+PH mlite_pack NULL /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mlite_pack.vhd sub00/vhpl00 1494409366
+>>>>>>> Stashed changes

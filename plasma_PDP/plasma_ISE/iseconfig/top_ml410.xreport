@@ -1,12 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
+<<<<<<< Updated upstream
   <DateModified>2017-05-10T00:41:26</DateModified>
   <ModuleName>top_ml410</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE/iseconfig/top_ml410.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE</ImplementationReportsDirectory>
   <DateInitialized>2017-05-10T00:41:26</DateInitialized>
+=======
+  <DateModified>2017-05-10T00:41:15</DateModified>
+  <ModuleName>top_ml410</ModuleName>
+  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SavedFilePath>/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/iseconfig/top_ml410.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/</ImplementationReportsDirectory>
+  <DateInitialized>2017-05-08T06:26:14</DateInitialized>
+>>>>>>> Stashed changes
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

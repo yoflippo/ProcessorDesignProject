@@ -5,7 +5,11 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
+<<<<<<< Updated upstream
   <application stringID="NgdBuild" timeStamp="Wed May 10 00:56:26 2017">
+=======
+  <application stringID="NgdBuild" timeStamp="Wed May 10 11:44:05 2017">
+>>>>>>> Stashed changes
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -52,8 +56,13 @@
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
+<<<<<<< Updated upstream
           <item stringID="arch" value="Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz"/>
           <item stringID="speed" value="1596.372 MHz"/>
+=======
+          <item stringID="arch" value="Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz"/>
+          <item stringID="speed" value="2393.422 MHz"/>
+>>>>>>> Stashed changes
         </row>
       </table>
     </section>
@@ -76,9 +85,15 @@
       <section stringID="NGDBUILD_PRE_UNISIM_SUMMARY">
         <item dataType="int" stringID="NGDBUILD_NUM_BUFG" value="3"/>
         <item dataType="int" stringID="NGDBUILD_NUM_DCM_ADV" value="1"/>
+<<<<<<< Updated upstream
         <item dataType="int" stringID="NGDBUILD_NUM_FD" value="6"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDC" value="241"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="367"/>
+=======
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="5"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDC" value="243"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="368"/>
+>>>>>>> Stashed changes
         <item dataType="int" stringID="NGDBUILD_NUM_FDCE_1" value="18"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDC_1" value="39"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDE" value="88"/>
@@ -86,6 +101,7 @@
         <item dataType="int" stringID="NGDBUILD_NUM_FDPE" value="9"/>
         <item dataType="int" stringID="NGDBUILD_NUM_GND" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="3"/>
+<<<<<<< Updated upstream
         <item dataType="int" stringID="NGDBUILD_NUM_INV" value="24"/>
         <item dataType="int" stringID="NGDBUILD_NUM_IOBUF" value="16"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="8"/>
@@ -104,15 +120,41 @@
         <item dataType="int" stringID="NGDBUILD_NUM_OBUFT" value="4"/>
         <item dataType="int" stringID="NGDBUILD_NUM_RAM16X1D" value="128"/>
         <item dataType="int" stringID="NGDBUILD_NUM_RAMB16" value="9"/>
+=======
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="22"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IOBUF" value="16"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="8"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="176"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2_D" value="43"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2_L" value="11"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="726"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3_D" value="106"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3_L" value="59"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="2051"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4_D" value="188"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4_L" value="160"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="44"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXF5" value="358"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="52"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUFT" value="4"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_RAM16X1D" value="128"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_RAMB16" value="13"/>
+>>>>>>> Stashed changes
         <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_XORCY" value="18"/>
       </section>
       <section stringID="NGDBUILD_POST_UNISIM_SUMMARY">
         <item dataType="int" stringID="NGDBUILD_NUM_BUFG" value="3"/>
         <item dataType="int" stringID="NGDBUILD_NUM_DCM_ADV" value="1"/>
+<<<<<<< Updated upstream
         <item dataType="int" stringID="NGDBUILD_NUM_FD" value="6"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDC" value="241"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="367"/>
+=======
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="5"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDC" value="243"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="368"/>
+>>>>>>> Stashed changes
         <item dataType="int" stringID="NGDBUILD_NUM_FDCE_1" value="18"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDC_1" value="39"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDE" value="88"/>
@@ -120,6 +162,7 @@
         <item dataType="int" stringID="NGDBUILD_NUM_FDPE" value="9"/>
         <item dataType="int" stringID="NGDBUILD_NUM_GND" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="21"/>
+<<<<<<< Updated upstream
         <item dataType="int" stringID="NGDBUILD_NUM_INV" value="24"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="8"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="177"/>
@@ -137,6 +180,25 @@
         <item dataType="int" stringID="NGDBUILD_NUM_OBUFT" value="20"/>
         <item dataType="int" stringID="NGDBUILD_NUM_PULLUP" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_RAMB16" value="9"/>
+=======
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="22"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="8"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="176"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2_D" value="43"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2_L" value="11"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="726"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3_D" value="106"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT3_L" value="59"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="2051"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4_D" value="188"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT4_L" value="160"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXCY" value="44"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_MUXF5" value="358"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="52"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUFT" value="20"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_PULLUP" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_RAMB16" value="13"/>
+>>>>>>> Stashed changes
         <item dataType="int" stringID="NGDBUILD_NUM_TS_TIMESPEC" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_XORCY" value="18"/>

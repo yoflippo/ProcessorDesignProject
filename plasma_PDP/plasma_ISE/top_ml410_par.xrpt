@@ -5,7 +5,11 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
+<<<<<<< Updated upstream
   <application stringID="par" timeStamp="Wed May 10 00:57:36 2017">
+=======
+  <application stringID="par" timeStamp="Wed May 10 11:44:35 2017">
+>>>>>>> Stashed changes
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -52,8 +56,13 @@
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
+<<<<<<< Updated upstream
           <item stringID="arch" value="Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz"/>
           <item stringID="speed" value="1596.372 MHz"/>
+=======
+          <item stringID="arch" value="Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz"/>
+          <item stringID="speed" value="2393.422 MHz"/>
+>>>>>>> Stashed changes
         </row>
       </table>
     </section>
@@ -72,17 +81,30 @@
           <item AVAILABLE="77" dataType="int" label="Number of LOCed IOBs" stringID="PAR_LOC_IOB" value="77"/>
         </item>
         <item AVAILABLE="576" dataType="int" label="Number of OLOGICs" stringID="PAR_OLOGIC" value="23"/>
+<<<<<<< Updated upstream
         <item AVAILABLE="25280" dataType="int" stringID="PAR_SLICES" value="2020"></item>
+=======
+        <item AVAILABLE="25280" dataType="int" stringID="PAR_SLICES" value="2042"></item>
+>>>>>>> Stashed changes
       </section>
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
+<<<<<<< Updated upstream
         <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="2 mins 55 secs "/>
         <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="1 mins 34 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
         <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="3 mins 19 secs "/>
         <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="1 mins 48 secs "/>
+=======
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="1 mins 8 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="58 secs "/>
+        <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
+        <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="1 mins 15 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="1 mins 4 secs "/>
+>>>>>>> Stashed changes
       </section>
     </task>
     <task stringID="PAR_par">
@@ -101,8 +123,13 @@
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y30"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Fanout" stringID="FANOUT" value="64.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.543000"/>
+=======
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="63.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.661000"/>
+>>>>>>> Stashed changes
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="2.940000"/>
           </row>
           <row stringID="row" value="2">
@@ -110,17 +137,28 @@
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="BUFGCTRL_X0Y0"/>
             <item label="Locked" stringID="LOCKED" value="No"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Fanout" stringID="FANOUT" value="706.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.674000"/>
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="3.028000"/>
+=======
+            <item dataType="float" label="Fanout" stringID="FANOUT" value="709.000000"/>
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.763000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="3.041000"/>
+>>>>>>> Stashed changes
           </row>
           <row stringID="row" value="3">
             <item label="Clock Net" stringID="CLOCK_NET" value="DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0/CLKOUT"/>
             <item label="Routed" stringID="ROUTED" value="ROUTED"/>
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="6.000000"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.018000"/>
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.415000"/>
+=======
+            <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.060000"/>
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.655000"/>
+>>>>>>> Stashed changes
           </row>
           <row stringID="row" value="4">
             <item label="Clock Net" stringID="CLOCK_NET" value="DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0/cd/CLK&lt;1>"/>
@@ -128,7 +166,11 @@
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="2.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.000000"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.402000"/>
+=======
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.782000"/>
+>>>>>>> Stashed changes
           </row>
           <row stringID="row" value="5">
             <item label="Clock Net" stringID="CLOCK_NET" value="DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0/FASTCLK"/>
@@ -136,7 +178,11 @@
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="3.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.000000"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.424000"/>
+=======
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.600000"/>
+>>>>>>> Stashed changes
           </row>
           <row stringID="row" value="6">
             <item label="Clock Net" stringID="CLOCK_NET" value="DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0/cd/CLK&lt;2>"/>
@@ -144,7 +190,11 @@
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="2.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.000000"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.412000"/>
+=======
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.755000"/>
+>>>>>>> Stashed changes
           </row>
           <row stringID="row" value="7">
             <item label="Clock Net" stringID="CLOCK_NET" value="DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0/cd/CLK&lt;3>"/>
@@ -152,7 +202,11 @@
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="2.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.000000"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.553000"/>
+=======
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.673000"/>
+>>>>>>> Stashed changes
           </row>
           <row stringID="row" value="8">
             <item label="Clock Net" stringID="CLOCK_NET" value="DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0/cd/CLK&lt;4>"/>
@@ -160,7 +214,11 @@
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="2.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.000000"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.412000"/>
+=======
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.634000"/>
+>>>>>>> Stashed changes
           </row>
           <row stringID="row" value="9">
             <item label="Clock Net" stringID="CLOCK_NET" value="DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0/cd/CLK&lt;5>"/>
@@ -168,7 +226,11 @@
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="2.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.000000"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.564000"/>
+=======
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.786000"/>
+>>>>>>> Stashed changes
           </row>
           <row stringID="row" value="10">
             <item label="Clock Net" stringID="CLOCK_NET" value="DCM_AUTOCALIBRATION_u1_plasma_top/u0_clk/DCM_BASE0/u1_plasma_top/u0_clk/DCM_BASE0/cd/CLK&lt;6>"/>
@@ -176,7 +238,11 @@
             <item label="Resource" stringID="RESOURCE" value="Local"/>
             <item dataType="float" label="Fanout" stringID="FANOUT" value="2.000000"/>
             <item dataType="float" label="Net Skew(ns)" stringID="NET_SKEW" value="0.000000"/>
+<<<<<<< Updated upstream
             <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.438000"/>
+=======
+            <item dataType="float" label="Max Delay(ns)" stringID="MAX_DELAY" value="0.624000"/>
+>>>>>>> Stashed changes
           </row>
         </table>
       </section>

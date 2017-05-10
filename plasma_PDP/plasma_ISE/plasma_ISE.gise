@@ -22,6 +22,10 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="plasma_ISE.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+<<<<<<< Updated upstream
+=======
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+>>>>>>> Stashed changes
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -29,6 +33,12 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+<<<<<<< Updated upstream
+=======
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cache.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="cache.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="cache.xst"/>
+>>>>>>> Stashed changes
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="top_ml410.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="top_ml410.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="top_ml410.bld"/>
@@ -53,6 +63,10 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="top_ml410.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="top_ml410.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="top_ml410.xst"/>
+<<<<<<< Updated upstream
+=======
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="top_ml410_envsettings.html"/>
+>>>>>>> Stashed changes
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="top_ml410_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="top_ml410_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="top_ml410_map.mrp" xil_pn:subbranch="Map"/>
@@ -66,6 +80,10 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="top_ml410_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="top_ml410_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="top_ml410_usage.xml"/>
+<<<<<<< Updated upstream
+=======
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top_ml410_vhdl.prj"/>
+>>>>>>> Stashed changes
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="top_ml410_xst.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
@@ -75,6 +93,7 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+<<<<<<< Updated upstream
     <transform xil_pn:end_ts="1494402735" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1494402735">
       <status xil_pn:value="SuccessfullyRun"/>
     </transform>
@@ -103,11 +122,46 @@
       <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1494402965" xil_pn:in_ck="-5625955881382617275" xil_pn:name="TRANEXT_xstsynthesize_virtex4" xil_pn:prop_ck="681776710777654122" xil_pn:start_ts="1494402735">
+=======
+    <transform xil_pn:end_ts="1494250128" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1494250128">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494250128" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4902574331054708288" xil_pn:start_ts="1494250128">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494250128" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-918028925066225360" xil_pn:start_ts="1494250128">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494250128" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1494250128">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494250128" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2650762838733440972" xil_pn:start_ts="1494250128">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494250128" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6526816086491584780" xil_pn:start_ts="1494250128">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494250128" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1282917846334982842" xil_pn:start_ts="1494250128">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494409437" xil_pn:in_ck="-5625955881382617275" xil_pn:name="TRANEXT_xstsynthesize_virtex4" xil_pn:prop_ck="681776710777654122" xil_pn:start_ts="1494409362">
+>>>>>>> Stashed changes
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+<<<<<<< Updated upstream
+=======
+      <outfile xil_pn:name=".lso"/>
+>>>>>>> Stashed changes
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="top_ml410.lso"/>
       <outfile xil_pn:name="top_ml410.ngc"/>
@@ -120,11 +174,19 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
+<<<<<<< Updated upstream
     <transform xil_pn:end_ts="1494402965" xil_pn:in_ck="157970463906522" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1863958585101756951" xil_pn:start_ts="1494402965">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1494402988" xil_pn:in_ck="156136041745079776" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7002601320454460802" xil_pn:start_ts="1494402965">
+=======
+    <transform xil_pn:end_ts="1494250240" xil_pn:in_ck="157970463906522" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1863958585101756951" xil_pn:start_ts="1494250239">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494409446" xil_pn:in_ck="156136041745079776" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7002601320454460802" xil_pn:start_ts="1494409437">
+>>>>>>> Stashed changes
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -134,7 +196,11 @@
       <outfile xil_pn:name="top_ml410.ngd"/>
       <outfile xil_pn:name="top_ml410_ngdbuild.xrpt"/>
     </transform>
+<<<<<<< Updated upstream
     <transform xil_pn:end_ts="1494403028" xil_pn:in_ck="156136041745079777" xil_pn:name="TRANEXT_map_virtex4" xil_pn:prop_ck="4275466871485391157" xil_pn:start_ts="1494402988">
+=======
+    <transform xil_pn:end_ts="1494409465" xil_pn:in_ck="156136041745079777" xil_pn:name="TRANEXT_map_virtex4" xil_pn:prop_ck="4275466871485391157" xil_pn:start_ts="1494409446">
+>>>>>>> Stashed changes
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -148,7 +214,11 @@
       <outfile xil_pn:name="top_ml410_summary.xml"/>
       <outfile xil_pn:name="top_ml410_usage.xml"/>
     </transform>
+<<<<<<< Updated upstream
     <transform xil_pn:end_ts="1494403287" xil_pn:in_ck="-3406247442931468934" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-7548604238020227500" xil_pn:start_ts="1494403028">
+=======
+    <transform xil_pn:end_ts="1494409562" xil_pn:in_ck="-3406247442931468934" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-7548604238020227500" xil_pn:start_ts="1494409465">
+>>>>>>> Stashed changes
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -163,7 +233,11 @@
       <outfile xil_pn:name="top_ml410_pad.txt"/>
       <outfile xil_pn:name="top_ml410_par.xrpt"/>
     </transform>
+<<<<<<< Updated upstream
     <transform xil_pn:end_ts="1494403372" xil_pn:in_ck="-3652723345403432893" xil_pn:name="TRANEXT_bitFile_virtex4" xil_pn:prop_ck="-5292315604690234831" xil_pn:start_ts="1494403287">
+=======
+    <transform xil_pn:end_ts="1494409599" xil_pn:in_ck="-3652723345403432893" xil_pn:name="TRANEXT_bitFile_virtex4" xil_pn:prop_ck="-5292315604690234831" xil_pn:start_ts="1494409562">
+>>>>>>> Stashed changes
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -176,7 +250,11 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
+<<<<<<< Updated upstream
     <transform xil_pn:end_ts="1494403287" xil_pn:in_ck="156136041745079645" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-2747766512402722435" xil_pn:start_ts="1494403237">
+=======
+    <transform xil_pn:end_ts="1494409562" xil_pn:in_ck="156136041745079645" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-2747766512402722435" xil_pn:start_ts="1494409545">
+>>>>>>> Stashed changes
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>

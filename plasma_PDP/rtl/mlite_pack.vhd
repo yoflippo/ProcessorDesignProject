@@ -367,7 +367,7 @@ package mlite_pack is
    end component; --cache
 
    component cache_ram
-      generic(block_count : integer := 1);
+      generic(block_count : integer := 2);
       port(clk               : in std_logic;
            enable            : in std_logic;
            write_byte_enable : in std_logic_vector(3 downto 0);

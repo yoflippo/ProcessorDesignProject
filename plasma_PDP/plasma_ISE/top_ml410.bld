@@ -6,8 +6,13 @@ ise -dd _ngo -nt timestamp -uc ml410.ucf -p xc4vfx60-ff1152-11 top_ml410.ngc
 top_ml410.ngd
 
 Reading NGO file
+<<<<<<< Updated upstream
 "/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE/top_ml410.ngc
 " ...
+=======
+"/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/top_ml410
+.ngc" ...
+>>>>>>> Stashed changes
 Gathering constraint information from source properties...
 Done.
 
@@ -48,10 +53,18 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   2
 
+<<<<<<< Updated upstream
 Total memory usage is 446380 kilobytes
 
 Writing NGD file "top_ml410.ngd" ...
 Total REAL time to NGDBUILD completion:  15 sec
 Total CPU time to NGDBUILD completion:   8 sec
+=======
+Total memory usage is 446836 kilobytes
+
+Writing NGD file "top_ml410.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   4 sec
+>>>>>>> Stashed changes
 
 Writing NGDBUILD log file "top_ml410.bld"...

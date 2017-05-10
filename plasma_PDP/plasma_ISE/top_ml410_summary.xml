@@ -4,7 +4,11 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
+<<<<<<< Updated upstream
 <DesignSummary rev="2">
+=======
+<DesignSummary rev="11">
+>>>>>>> Stashed changes
 <CmdHistory>
 </CmdHistory>
 </DesignSummary>

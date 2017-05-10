@@ -4,7 +4,11 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Project Information
 --------------------
 ProjectID=E4CA81BA1E1C4DC59DDB01FCD5BCAFCE
+<<<<<<< Updated upstream
 ProjectIteration=1
+=======
+ProjectIteration=5
+>>>>>>> Stashed changes
 
 WebTalk Summary
 ----------------
@@ -15,4 +19,8 @@ INFO:WebTalk:6 - WebTalk User setting is ON.
 
 WARNING:WebTalk:1 - WebTalk could not create a temp directory to store user setting.
 
+<<<<<<< Updated upstream
 INFO:WebTalk:5 - /home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
+=======
+INFO:WebTalk:5 - /home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
+>>>>>>> Stashed changes

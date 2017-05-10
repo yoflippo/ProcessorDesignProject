@@ -1,0 +1,5 @@
+set -tmpdir "/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/xst/projnav.tmp"
+set -xsthdpdir "/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/xst"
+elaborate
+-ifn cache.prj
+-ifmt mixed

@@ -8,6 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<<<<<<< Updated upstream
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/rtl/alu.vhd&quot; into library work</arg>
 </msg>
 
@@ -72,6 +73,15 @@
 </msg>
 
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/rtl/uart.vhd&quot; into library work</arg>
+=======
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/cache_ram.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/mlite_pack.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/rtl/plasma.vhd&quot; into library work</arg>
+>>>>>>> Stashed changes
 </msg>
 
 </messages>

@@ -1,0 +1,3 @@
+vhdl work "../rtl/mlite_pack.vhd"
+vhdl work "../rtl/cache_ram.vhd"
+vhdl work "../rtl/cache.vhd"

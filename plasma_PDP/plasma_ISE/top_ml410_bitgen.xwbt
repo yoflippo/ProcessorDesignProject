@@ -1,8 +1,16 @@
 INTSTYLE=ise
+<<<<<<< Updated upstream
 INFILE=/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE/top_ml410.ncd
 OUTFILE=/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE/top_ml410.bit
 FAMILY=Virtex4
 PART=xc4vfx60-11ff1152
 WORKINGDIR=/home/pdp/Repository/ProcessorDesignProject/plasma_PDP/plasma_ISE
+=======
+INFILE=/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/top_ml410.ncd
+OUTFILE=/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE/top_ml410.bit
+FAMILY=Virtex4
+PART=xc4vfx60-11ff1152
+WORKINGDIR=/home/pdp/Documents/repo/ProcessorDesignProject/plasma_PDP/plasma_ISE
+>>>>>>> Stashed changes
 LICENSE=ISE
 USER_INFO=174118803_178259257_210646183_529
