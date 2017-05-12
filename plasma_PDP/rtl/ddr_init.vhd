@@ -28,7 +28,7 @@ architecture logic of ddr_init is
     constant RESET_DLL      : command_type := "000100000001001000010000000000";         -- (0x121 << 12) | (0 << 10) | (0 << 4),  //reset DLL, CL=2, BL=2; LMR="000"
     constant AUTO_REFRESH   : command_type := "000100000000000000000000000100";         -- (0x000 << 12) | (0 << 10) | (1 << 4),  //AUTO REFRESH="001"
     constant CLEAR_DLL      : command_type := "000100000000001000010000000000";         -- (0x021 << 12) | (0 << 10) | (0 << 4)   //clear DLL, CL=2, BL=2; LMR="000"  
-    constant ACTIVE_DDR		 : command_type := "000100000000000000000000000000";
+    constant ACTIVE_DDR		: command_type := "000100000000000000000000000000";
 	 
     subtype state_type is std_logic_vector(3 downto 0);
     constant IDLE       : state_type := "0000";
