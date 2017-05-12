@@ -9,28 +9,28 @@ Target Device  : xc4vfx60
 Target Package : ff1152
 Target Speed   : -11
 Mapper Version : virtex4 -- $Revision: 1.55 $
-Mapped Date    : Wed May 10 00:56:35 2017
+Mapped Date    : Fri May 12 08:57:28 2017
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:   12
 Logic Utilization:
-  Number of Slice Flip Flops:           774 out of  50,560    1%
+  Number of Slice Flip Flops:           767 out of  50,560    1%
     Number of Slice FFs used for
-    DCM autocalibration logic:          7 out of     774    1%
-  Number of 4 input LUTs:             3,780 out of  50,560    7%
+    DCM autocalibration logic:          7 out of     767    1%
+  Number of 4 input LUTs:             3,779 out of  50,560    7%
     Number of LUTs used for
-    DCM autocalibration logic:          4 out of   3,780    1%
+    DCM autocalibration logic:          4 out of   3,779    1%
       *See INFO below for an explanation of the DCM autocalibration logic
        added by Map
 Logic Distribution:
-  Number of occupied Slices:          2,020 out of  25,280    7%
-    Number of Slices containing only related logic:   2,020 out of   2,020 100%
-    Number of Slices containing unrelated logic:          0 out of   2,020   0%
+  Number of occupied Slices:          2,016 out of  25,280    7%
+    Number of Slices containing only related logic:   2,016 out of   2,016 100%
+    Number of Slices containing unrelated logic:          0 out of   2,016   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:       3,793 out of  50,560    7%
-    Number used as logic:             3,517
+  Total Number of 4 input LUTs:       3,792 out of  50,560    7%
+    Number used as logic:             3,516
     Number used as a route-thru:         13
     Number used for Dual Port RAMs:     256
       (Two LUTs used per Dual Port RAM)
@@ -49,8 +49,8 @@ Logic Distribution:
 Average Fanout of Non-Clock Nets:                4.25
 
 Peak Memory Usage:  799 MB
-Total REAL time to MAP completion:  29 secs 
-Total CPU time to MAP completion:   15 secs 
+Total REAL time to MAP completion:  28 secs 
+Total CPU time to MAP completion:   11 secs 
 
 NOTES:
 

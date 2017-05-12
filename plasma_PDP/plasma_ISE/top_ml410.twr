@@ -73,16 +73,16 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
 
  117 paths analyzed, 53 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   5.553ns.
+ Minimum period is   6.720ns.
 --------------------------------------------------------------------------------
 
-Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_41 (SLICE_X27Y212.BX), 1 path
+Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_46 (SLICE_X32Y204.BY), 1 path
 --------------------------------------------------------------------------------
-Slack (setup path):     3.365ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u2_ddr/u2_ddr/data_write2_25 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_41 (FF)
+Slack (setup path):     2.810ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u2_ddr/u2_ddr/data_write2_30 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_46 (FF)
   Requirement:          6.005ns
-  Data Path Delay:      2.336ns (Levels of Logic = 0)
+  Data Path Delay:      2.891ns (Levels of Logic = 0)
   Clock Path Skew:      0.000ns
   Source Clock:         u1_plasma_top/clk_2x falling at 12.941ns
   Destination Clock:    u1_plasma_top/clk_2x falling at 18.946ns
@@ -94,84 +94,84 @@ Slack (setup path):     3.365ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Maximum Data Path: u1_plasma_top/u2_ddr/u2_ddr/data_write2_25 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_41
+  Maximum Data Path: u1_plasma_top/u2_ddr/u2_ddr/data_write2_30 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_46
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X43Y176.XQ     Tcko                  0.244   u1_plasma_top/u2_ddr/u2_ddr/data_write2<25>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_25
-    SLICE_X27Y212.BX     net (fanout=1)        1.810   u1_plasma_top/u2_ddr/u2_ddr/data_write2<25>
-    SLICE_X27Y212.CLK    Tdick                 0.282   u1_plasma_top/u2_ddr/u2_ddr/data_write2<41>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_41
+    SLICE_X53Y181.YQ     Tcko                  0.244   u1_plasma_top/u2_ddr/u2_ddr/data_write2<31>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_30
+    SLICE_X32Y204.BY     net (fanout=1)        2.368   u1_plasma_top/u2_ddr/u2_ddr/data_write2<30>
+    SLICE_X32Y204.CLK    Tdick                 0.279   u1_plasma_top/u2_ddr/u2_ddr/data_write2<47>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_46
     -------------------------------------------------  ---------------------------
-    Total                                      2.336ns (0.526ns logic, 1.810ns route)
+    Total                                      2.891ns (0.523ns logic, 2.368ns route)
+                                                       (18.1% logic, 81.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_36 (SLICE_X34Y194.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     3.082ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u2_ddr/u2_ddr/data_write2_20 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_36 (FF)
+  Requirement:          6.005ns
+  Data Path Delay:      2.619ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         u1_plasma_top/clk_2x falling at 12.941ns
+  Destination Clock:    u1_plasma_top/clk_2x falling at 18.946ns
+  Clock Uncertainty:    0.304ns
+
+  Clock Uncertainty:          0.304ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.000ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.607ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: u1_plasma_top/u2_ddr/u2_ddr/data_write2_20 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_36
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X57Y162.YQ     Tcko                  0.244   u1_plasma_top/u2_ddr/u2_ddr/data_write2<21>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_20
+    SLICE_X34Y194.BY     net (fanout=1)        2.096   u1_plasma_top/u2_ddr/u2_ddr/data_write2<20>
+    SLICE_X34Y194.CLK    Tdick                 0.279   u1_plasma_top/u2_ddr/u2_ddr/data_write2<37>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_36
+    -------------------------------------------------  ---------------------------
+    Total                                      2.619ns (0.523ns logic, 2.096ns route)
+                                                       (20.0% logic, 80.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_43 (SLICE_X28Y206.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     3.298ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u2_ddr/u2_ddr/data_write2_27 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_43 (FF)
+  Requirement:          6.005ns
+  Data Path Delay:      2.403ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         u1_plasma_top/clk_2x falling at 12.941ns
+  Destination Clock:    u1_plasma_top/clk_2x falling at 18.946ns
+  Clock Uncertainty:    0.304ns
+
+  Clock Uncertainty:          0.304ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.000ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.607ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: u1_plasma_top/u2_ddr/u2_ddr/data_write2_27 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_43
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X56Y179.XQ     Tcko                  0.262   u1_plasma_top/u2_ddr/u2_ddr/data_write2<27>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_27
+    SLICE_X28Y206.BX     net (fanout=1)        1.863   u1_plasma_top/u2_ddr/u2_ddr/data_write2<27>
+    SLICE_X28Y206.CLK    Tdick                 0.278   u1_plasma_top/u2_ddr/u2_ddr/data_write2<43>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_43
+    -------------------------------------------------  ---------------------------
+    Total                                      2.403ns (0.540ns logic, 1.863ns route)
                                                        (22.5% logic, 77.5% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_40 (SLICE_X27Y212.BY), 1 path
---------------------------------------------------------------------------------
-Slack (setup path):     3.422ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u2_ddr/u2_ddr/data_write2_24 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_40 (FF)
-  Requirement:          6.005ns
-  Data Path Delay:      2.279ns (Levels of Logic = 0)
-  Clock Path Skew:      0.000ns
-  Source Clock:         u1_plasma_top/clk_2x falling at 12.941ns
-  Destination Clock:    u1_plasma_top/clk_2x falling at 18.946ns
-  Clock Uncertainty:    0.304ns
-
-  Clock Uncertainty:          0.304ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.000ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.607ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path: u1_plasma_top/u2_ddr/u2_ddr/data_write2_24 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_40
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X43Y176.YQ     Tcko                  0.244   u1_plasma_top/u2_ddr/u2_ddr/data_write2<25>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_24
-    SLICE_X27Y212.BY     net (fanout=1)        1.743   u1_plasma_top/u2_ddr/u2_ddr/data_write2<24>
-    SLICE_X27Y212.CLK    Tdick                 0.292   u1_plasma_top/u2_ddr/u2_ddr/data_write2<41>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_40
-    -------------------------------------------------  ---------------------------
-    Total                                      2.279ns (0.536ns logic, 1.743ns route)
-                                                       (23.5% logic, 76.5% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_39 (SLICE_X27Y221.BX), 1 path
---------------------------------------------------------------------------------
-Slack (setup path):     3.422ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u2_ddr/u2_ddr/data_write2_23 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_39 (FF)
-  Requirement:          6.005ns
-  Data Path Delay:      2.279ns (Levels of Logic = 0)
-  Clock Path Skew:      0.000ns
-  Source Clock:         u1_plasma_top/clk_2x falling at 12.941ns
-  Destination Clock:    u1_plasma_top/clk_2x falling at 18.946ns
-  Clock Uncertainty:    0.304ns
-
-  Clock Uncertainty:          0.304ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.000ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.607ns
-    Phase Error (PE):           0.000ns
-
-  Maximum Data Path: u1_plasma_top/u2_ddr/u2_ddr/data_write2_23 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_39
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X45Y171.XQ     Tcko                  0.244   u1_plasma_top/u2_ddr/u2_ddr/data_write2<23>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_23
-    SLICE_X27Y221.BX     net (fanout=1)        1.753   u1_plasma_top/u2_ddr/u2_ddr/data_write2<23>
-    SLICE_X27Y221.CLK    Tdick                 0.282   u1_plasma_top/u2_ddr/u2_ddr/data_write2<39>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_39
-    -------------------------------------------------  ---------------------------
-    Total                                      2.279ns (0.526ns logic, 1.753ns route)
-                                                       (23.1% logic, 76.9% route)
 
 --------------------------------------------------------------------------------
 
@@ -180,14 +180,14 @@ Hold Paths: TS_u1_plasma_top_u0_clk_clk_2x_bufg_in = PERIOD TIMEGRP
         50%;
 --------------------------------------------------------------------------------
 
-Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_read_25 (SLICE_X29Y211.CE), 3 paths
+Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_read_11 (SLICE_X37Y211.CE), 3 paths
 --------------------------------------------------------------------------------
-Slack (hold path):      1.383ns (requirement - (clock path skew + uncertainty - data path))
+Slack (hold path):      1.407ns (requirement - (clock path skew + uncertainty - data path))
   Source:               u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_25 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_11 (FF)
   Requirement:          0.310ns
-  Data Path Delay:      1.424ns (Levels of Logic = 1)
-  Clock Path Skew:      0.047ns (1.844 - 1.797)
+  Data Path Delay:      1.334ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.067ns (0.820 - 0.887)
   Source Clock:         u1_plasma_top/clk_2x rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x rising at 0.000ns
   Clock Uncertainty:    0.304ns
@@ -198,29 +198,29 @@ Slack (hold path):      1.383ns (requirement - (clock path skew + uncertainty - 
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 to u1_plasma_top/u2_ddr/u2_ddr/data_read_25
+  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 to u1_plasma_top/u2_ddr/u2_ddr/data_read_11
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X36Y226.XQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
+    SLICE_X31Y212.XQ     Tcko                  0.268   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
                                                        u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1
-    SLICE_X39Y227.F4     net (fanout=6)        0.314   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
-    SLICE_X39Y227.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001
-    SLICE_X29Y211.CE     net (fanout=8)        0.657   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-    SLICE_X29Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<25>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_25
+    SLICE_X33Y213.F4     net (fanout=6)        0.316   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
+    SLICE_X33Y213.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001
+    SLICE_X37Y211.CE     net (fanout=8)        0.580   u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and0000
+    SLICE_X37Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<11>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_11
     -------------------------------------------------  ---------------------------
-    Total                                      1.424ns (0.453ns logic, 0.971ns route)
-                                                       (31.8% logic, 68.2% route)
+    Total                                      1.334ns (0.438ns logic, 0.896ns route)
+                                                       (32.8% logic, 67.2% route)
 
 --------------------------------------------------------------------------------
-Slack (hold path):      1.552ns (requirement - (clock path skew + uncertainty - data path))
+Slack (hold path):      1.574ns (requirement - (clock path skew + uncertainty - data path))
   Source:               u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_25 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_11 (FF)
   Requirement:          0.310ns
-  Data Path Delay:      1.593ns (Levels of Logic = 1)
-  Clock Path Skew:      0.047ns (1.844 - 1.797)
+  Data Path Delay:      1.489ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.079ns (0.820 - 0.899)
   Source Clock:         u1_plasma_top/clk_2x rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x rising at 0.000ns
   Clock Uncertainty:    0.304ns
@@ -231,29 +231,29 @@ Slack (hold path):      1.552ns (requirement - (clock path skew + uncertainty - 
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 to u1_plasma_top/u2_ddr/u2_ddr/data_read_25
+  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 to u1_plasma_top/u2_ddr/u2_ddr/data_read_11
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X36Y227.YQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+    SLICE_X33Y213.YQ     Tcko                  0.268   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
                                                        u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2
-    SLICE_X39Y227.F1     net (fanout=5)        0.483   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
-    SLICE_X39Y227.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001
-    SLICE_X29Y211.CE     net (fanout=8)        0.657   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-    SLICE_X29Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<25>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_25
+    SLICE_X33Y213.F1     net (fanout=5)        0.471   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+    SLICE_X33Y213.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001
+    SLICE_X37Y211.CE     net (fanout=8)        0.580   u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and0000
+    SLICE_X37Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<11>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_11
     -------------------------------------------------  ---------------------------
-    Total                                      1.593ns (0.453ns logic, 1.140ns route)
-                                                       (28.4% logic, 71.6% route)
+    Total                                      1.489ns (0.438ns logic, 1.051ns route)
+                                                       (29.4% logic, 70.6% route)
 
 --------------------------------------------------------------------------------
-Slack (hold path):      1.981ns (requirement - (clock path skew + uncertainty - data path))
+Slack (hold path):      1.724ns (requirement - (clock path skew + uncertainty - data path))
   Source:               u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_25 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_11 (FF)
   Requirement:          0.310ns
-  Data Path Delay:      1.962ns (Levels of Logic = 1)
-  Clock Path Skew:      -0.013ns (1.844 - 1.857)
+  Data Path Delay:      1.647ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.071ns (0.820 - 0.891)
   Source Clock:         u1_plasma_top/clk_2x rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x rising at 0.000ns
   Clock Uncertainty:    0.304ns
@@ -264,32 +264,32 @@ Slack (hold path):      1.981ns (requirement - (clock path skew + uncertainty - 
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 to u1_plasma_top/u2_ddr/u2_ddr/data_read_25
+  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 to u1_plasma_top/u2_ddr/u2_ddr/data_read_11
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X34Y227.YQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
+    SLICE_X30Y217.YQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
                                                        u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0
-    SLICE_X39Y227.F2     net (fanout=7)        0.852   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
-    SLICE_X39Y227.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001
-    SLICE_X29Y211.CE     net (fanout=8)        0.657   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-    SLICE_X29Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<25>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_25
+    SLICE_X33Y213.F2     net (fanout=7)        0.614   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
+    SLICE_X33Y213.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001
+    SLICE_X37Y211.CE     net (fanout=8)        0.580   u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and0000
+    SLICE_X37Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<11>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_11
     -------------------------------------------------  ---------------------------
-    Total                                      1.962ns (0.453ns logic, 1.509ns route)
-                                                       (23.1% logic, 76.9% route)
+    Total                                      1.647ns (0.453ns logic, 1.194ns route)
+                                                       (27.5% logic, 72.5% route)
 
 --------------------------------------------------------------------------------
 
-Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_read_24 (SLICE_X29Y211.CE), 3 paths
+Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_read_10 (SLICE_X37Y211.CE), 3 paths
 --------------------------------------------------------------------------------
-Slack (hold path):      1.383ns (requirement - (clock path skew + uncertainty - data path))
+Slack (hold path):      1.407ns (requirement - (clock path skew + uncertainty - data path))
   Source:               u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_24 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_10 (FF)
   Requirement:          0.310ns
-  Data Path Delay:      1.424ns (Levels of Logic = 1)
-  Clock Path Skew:      0.047ns (1.844 - 1.797)
+  Data Path Delay:      1.334ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.067ns (0.820 - 0.887)
   Source Clock:         u1_plasma_top/clk_2x rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x rising at 0.000ns
   Clock Uncertainty:    0.304ns
@@ -300,29 +300,29 @@ Slack (hold path):      1.383ns (requirement - (clock path skew + uncertainty - 
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 to u1_plasma_top/u2_ddr/u2_ddr/data_read_24
+  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 to u1_plasma_top/u2_ddr/u2_ddr/data_read_10
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X36Y226.XQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
+    SLICE_X31Y212.XQ     Tcko                  0.268   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
                                                        u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1
-    SLICE_X39Y227.F4     net (fanout=6)        0.314   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
-    SLICE_X39Y227.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001
-    SLICE_X29Y211.CE     net (fanout=8)        0.657   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-    SLICE_X29Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<25>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_24
+    SLICE_X33Y213.F4     net (fanout=6)        0.316   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
+    SLICE_X33Y213.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001
+    SLICE_X37Y211.CE     net (fanout=8)        0.580   u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and0000
+    SLICE_X37Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<11>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10
     -------------------------------------------------  ---------------------------
-    Total                                      1.424ns (0.453ns logic, 0.971ns route)
-                                                       (31.8% logic, 68.2% route)
+    Total                                      1.334ns (0.438ns logic, 0.896ns route)
+                                                       (32.8% logic, 67.2% route)
 
 --------------------------------------------------------------------------------
-Slack (hold path):      1.552ns (requirement - (clock path skew + uncertainty - data path))
+Slack (hold path):      1.574ns (requirement - (clock path skew + uncertainty - data path))
   Source:               u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_24 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_10 (FF)
   Requirement:          0.310ns
-  Data Path Delay:      1.593ns (Levels of Logic = 1)
-  Clock Path Skew:      0.047ns (1.844 - 1.797)
+  Data Path Delay:      1.489ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.079ns (0.820 - 0.899)
   Source Clock:         u1_plasma_top/clk_2x rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x rising at 0.000ns
   Clock Uncertainty:    0.304ns
@@ -333,29 +333,29 @@ Slack (hold path):      1.552ns (requirement - (clock path skew + uncertainty - 
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 to u1_plasma_top/u2_ddr/u2_ddr/data_read_24
+  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 to u1_plasma_top/u2_ddr/u2_ddr/data_read_10
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X36Y227.YQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+    SLICE_X33Y213.YQ     Tcko                  0.268   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
                                                        u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2
-    SLICE_X39Y227.F1     net (fanout=5)        0.483   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
-    SLICE_X39Y227.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001
-    SLICE_X29Y211.CE     net (fanout=8)        0.657   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-    SLICE_X29Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<25>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_24
+    SLICE_X33Y213.F1     net (fanout=5)        0.471   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+    SLICE_X33Y213.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001
+    SLICE_X37Y211.CE     net (fanout=8)        0.580   u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and0000
+    SLICE_X37Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<11>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10
     -------------------------------------------------  ---------------------------
-    Total                                      1.593ns (0.453ns logic, 1.140ns route)
-                                                       (28.4% logic, 71.6% route)
+    Total                                      1.489ns (0.438ns logic, 1.051ns route)
+                                                       (29.4% logic, 70.6% route)
 
 --------------------------------------------------------------------------------
-Slack (hold path):      1.981ns (requirement - (clock path skew + uncertainty - data path))
+Slack (hold path):      1.724ns (requirement - (clock path skew + uncertainty - data path))
   Source:               u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_24 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_10 (FF)
   Requirement:          0.310ns
-  Data Path Delay:      1.962ns (Levels of Logic = 1)
-  Clock Path Skew:      -0.013ns (1.844 - 1.857)
+  Data Path Delay:      1.647ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.071ns (0.820 - 0.891)
   Source Clock:         u1_plasma_top/clk_2x rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x rising at 0.000ns
   Clock Uncertainty:    0.304ns
@@ -366,32 +366,32 @@ Slack (hold path):      1.981ns (requirement - (clock path skew + uncertainty - 
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 to u1_plasma_top/u2_ddr/u2_ddr/data_read_24
+  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 to u1_plasma_top/u2_ddr/u2_ddr/data_read_10
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X34Y227.YQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
+    SLICE_X30Y217.YQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
                                                        u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0
-    SLICE_X39Y227.F2     net (fanout=7)        0.852   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
-    SLICE_X39Y227.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001
-    SLICE_X29Y211.CE     net (fanout=8)        0.657   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-    SLICE_X29Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<25>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_24
+    SLICE_X33Y213.F2     net (fanout=7)        0.614   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
+    SLICE_X33Y213.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001
+    SLICE_X37Y211.CE     net (fanout=8)        0.580   u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and0000
+    SLICE_X37Y211.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<11>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10
     -------------------------------------------------  ---------------------------
-    Total                                      1.962ns (0.453ns logic, 1.509ns route)
-                                                       (23.1% logic, 76.9% route)
+    Total                                      1.647ns (0.453ns logic, 1.194ns route)
+                                                       (27.5% logic, 72.5% route)
 
 --------------------------------------------------------------------------------
 
-Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_read_31 (SLICE_X29Y213.CE), 3 paths
+Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_read_13 (SLICE_X39Y209.CE), 3 paths
 --------------------------------------------------------------------------------
-Slack (hold path):      1.395ns (requirement - (clock path skew + uncertainty - data path))
+Slack (hold path):      1.455ns (requirement - (clock path skew + uncertainty - data path))
   Source:               u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_31 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_13 (FF)
   Requirement:          0.310ns
-  Data Path Delay:      1.438ns (Levels of Logic = 1)
-  Clock Path Skew:      0.049ns (1.846 - 1.797)
+  Data Path Delay:      1.365ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.084ns (0.803 - 0.887)
   Source Clock:         u1_plasma_top/clk_2x rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x rising at 0.000ns
   Clock Uncertainty:    0.304ns
@@ -402,29 +402,29 @@ Slack (hold path):      1.395ns (requirement - (clock path skew + uncertainty - 
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 to u1_plasma_top/u2_ddr/u2_ddr/data_read_31
+  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1 to u1_plasma_top/u2_ddr/u2_ddr/data_read_13
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X36Y226.XQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
+    SLICE_X31Y212.XQ     Tcko                  0.268   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
                                                        u1_plasma_top/u2_ddr/u2_ddr/cycle_count_1
-    SLICE_X39Y227.F4     net (fanout=6)        0.314   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
-    SLICE_X39Y227.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001
-    SLICE_X29Y213.CE     net (fanout=8)        0.671   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-    SLICE_X29Y213.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<31>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_31
+    SLICE_X33Y213.F4     net (fanout=6)        0.316   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<1>
+    SLICE_X33Y213.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001
+    SLICE_X39Y209.CE     net (fanout=8)        0.611   u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and0000
+    SLICE_X39Y209.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<13>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_13
     -------------------------------------------------  ---------------------------
-    Total                                      1.438ns (0.453ns logic, 0.985ns route)
-                                                       (31.5% logic, 68.5% route)
+    Total                                      1.365ns (0.438ns logic, 0.927ns route)
+                                                       (32.1% logic, 67.9% route)
 
 --------------------------------------------------------------------------------
-Slack (hold path):      1.564ns (requirement - (clock path skew + uncertainty - data path))
+Slack (hold path):      1.622ns (requirement - (clock path skew + uncertainty - data path))
   Source:               u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_31 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_13 (FF)
   Requirement:          0.310ns
-  Data Path Delay:      1.607ns (Levels of Logic = 1)
-  Clock Path Skew:      0.049ns (1.846 - 1.797)
+  Data Path Delay:      1.520ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.096ns (0.803 - 0.899)
   Source Clock:         u1_plasma_top/clk_2x rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x rising at 0.000ns
   Clock Uncertainty:    0.304ns
@@ -435,29 +435,29 @@ Slack (hold path):      1.564ns (requirement - (clock path skew + uncertainty - 
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 to u1_plasma_top/u2_ddr/u2_ddr/data_read_31
+  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2 to u1_plasma_top/u2_ddr/u2_ddr/data_read_13
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X36Y227.YQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+    SLICE_X33Y213.YQ     Tcko                  0.268   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
                                                        u1_plasma_top/u2_ddr/u2_ddr/cycle_count_2
-    SLICE_X39Y227.F1     net (fanout=5)        0.483   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
-    SLICE_X39Y227.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001
-    SLICE_X29Y213.CE     net (fanout=8)        0.671   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-    SLICE_X29Y213.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<31>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_31
+    SLICE_X33Y213.F1     net (fanout=5)        0.471   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+    SLICE_X33Y213.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001
+    SLICE_X39Y209.CE     net (fanout=8)        0.611   u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and0000
+    SLICE_X39Y209.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<13>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_13
     -------------------------------------------------  ---------------------------
-    Total                                      1.607ns (0.453ns logic, 1.154ns route)
-                                                       (28.2% logic, 71.8% route)
+    Total                                      1.520ns (0.438ns logic, 1.082ns route)
+                                                       (28.8% logic, 71.2% route)
 
 --------------------------------------------------------------------------------
-Slack (hold path):      1.993ns (requirement - (clock path skew + uncertainty - data path))
+Slack (hold path):      1.772ns (requirement - (clock path skew + uncertainty - data path))
   Source:               u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_31 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_read_13 (FF)
   Requirement:          0.310ns
-  Data Path Delay:      1.976ns (Levels of Logic = 1)
-  Clock Path Skew:      -0.011ns (1.846 - 1.857)
+  Data Path Delay:      1.678ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.088ns (0.803 - 0.891)
   Source Clock:         u1_plasma_top/clk_2x rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x rising at 0.000ns
   Clock Uncertainty:    0.304ns
@@ -468,21 +468,21 @@ Slack (hold path):      1.993ns (requirement - (clock path skew + uncertainty - 
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.000ns
 
-  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 to u1_plasma_top/u2_ddr/u2_ddr/data_read_31
+  Minimum Data Path: u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0 to u1_plasma_top/u2_ddr/u2_ddr/data_read_13
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X34Y227.YQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
+    SLICE_X30Y217.YQ     Tcko                  0.283   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
                                                        u1_plasma_top/u2_ddr/u2_ddr/cycle_count_0
-    SLICE_X39Y227.F2     net (fanout=7)        0.852   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
-    SLICE_X39Y227.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and00001
-    SLICE_X29Y213.CE     net (fanout=8)        0.671   u1_plasma_top/u2_ddr/u2_ddr/data_read_29_and0000
-    SLICE_X29Y213.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<31>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_31
+    SLICE_X33Y213.F2     net (fanout=7)        0.614   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<0>
+    SLICE_X33Y213.X      Tilo                  0.152   u1_plasma_top/u2_ddr/u2_ddr/cycle_count<2>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and00001
+    SLICE_X39Y209.CE     net (fanout=8)        0.611   u1_plasma_top/u2_ddr/u2_ddr/data_read_10_and0000
+    SLICE_X39Y209.CLK    Tckce       (-Th)    -0.018   u1_plasma_top/u2_ddr/u2_ddr/data_read<13>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_read_13
     -------------------------------------------------  ---------------------------
-    Total                                      1.976ns (0.453ns logic, 1.523ns route)
-                                                       (22.9% logic, 77.1% route)
+    Total                                      1.678ns (0.453ns logic, 1.225ns route)
+                                                       (27.0% logic, 73.0% route)
 
 --------------------------------------------------------------------------------
 
@@ -494,27 +494,27 @@ Slack: 11.469ns (period - (min low pulse limit / (low pulse / period)))
   Period: 12.631ns
   Low pulse: 6.315ns
   Low pulse limit: 0.581ns (Trpw)
-  Physical resource: u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<2>/SR
-  Logical resource: u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_2/SR
-  Location pin: SLICE_X39Y218.SR
+  Physical resource: u1_plasma_top/u2_ddr/u2_ddr/data_write2<8>/SR
+  Logical resource: u1_plasma_top/u2_ddr/u2_ddr/data_write2_8/SR
+  Location pin: SLICE_X59Y177.SR
   Clock network: u1_plasma_top/reset
 --------------------------------------------------------------------------------
 Slack: 11.469ns (period - (min high pulse limit / (high pulse / period)))
   Period: 12.631ns
   High pulse: 6.315ns
   High pulse limit: 0.581ns (Trpw)
-  Physical resource: u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2<2>/SR
-  Logical resource: u1_plasma_top/u2_ddr/u2_ddr/byte_we_reg2_2/SR
-  Location pin: SLICE_X39Y218.SR
+  Physical resource: u1_plasma_top/u2_ddr/u2_ddr/data_write2<8>/SR
+  Logical resource: u1_plasma_top/u2_ddr/u2_ddr/data_write2_8/SR
+  Location pin: SLICE_X59Y177.SR
   Clock network: u1_plasma_top/reset
 --------------------------------------------------------------------------------
 Slack: 11.469ns (period - (min low pulse limit / (low pulse / period)))
   Period: 12.631ns
   Low pulse: 6.315ns
   Low pulse limit: 0.581ns (Trpw)
-  Physical resource: u1_plasma_top/u2_ddr/u2_ddr/data_write2<8>/SR
-  Logical resource: u1_plasma_top/u2_ddr/u2_ddr/data_write2_8/SR
-  Location pin: SLICE_X43Y169.SR
+  Physical resource: u1_plasma_top/u2_ddr/u2_ddr/data_write2<9>/SR
+  Logical resource: u1_plasma_top/u2_ddr/u2_ddr/data_write2_9/SR
+  Location pin: SLICE_X57Y171.SR
   Clock network: u1_plasma_top/reset
 --------------------------------------------------------------------------------
 
@@ -523,263 +523,223 @@ Timing constraint: TS_clk = PERIOD TIMEGRP "clk"
 TS_u1_plasma_top_u0_clk_clk_2x_bufg_in * 2 PHASE         0.31 ns HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 62596692 paths analyzed, 4886 endpoints analyzed, 0 failing endpoints
+ 62601984 paths analyzed, 4877 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is  23.308ns.
+ Minimum period is  24.622ns.
 --------------------------------------------------------------------------------
 
-Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_27 (SLICE_X37Y184.F4), 1282 paths
+Paths for end point u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0 (RAMB16_X3Y19.DIA5), 761002 paths
 --------------------------------------------------------------------------------
-Slack (setup path):     0.977ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_27 (FF)
-  Requirement:          12.631ns
-  Data Path Delay:      6.823ns (Levels of Logic = 6)
-  Clock Path Skew:      -4.407ns (0.161 - 4.568)
+Slack (setup path):     0.641ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1 (FF)
+  Destination:          u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0 (RAM)
+  Requirement:          25.263ns
+  Data Path Delay:      24.622ns (Levels of Logic = 14)
+  Clock Path Skew:      0.000ns
   Source Clock:         u1_plasma_top/clk rising at 0.310ns
-  Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
-  Clock Uncertainty:    0.424ns
+  Destination Clock:    u1_plasma_top/clk rising at 25.573ns
+  Clock Uncertainty:    0.000ns
 
-  Clock Uncertainty:          0.424ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.000ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.607ns
-    Phase Error (PE):           0.120ns
-
-  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_27
+  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1 to u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X38Y164.YQ     Tcko                  0.307   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<27>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26
-    SLICE_X41Y171.G2     net (fanout=29)       0.647   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<26>
-    SLICE_X41Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rt_index<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<0>2_SW0
-    SLICE_X39Y173.G1     net (fanout=5)        1.292   N270
-    SLICE_X39Y173.Y      Tilo                  0.165   N817
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
-    SLICE_X40Y171.F2     net (fanout=69)       0.750   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
-    SLICE_X40Y171.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit2a.SLICEM_F
-    SLICE_X41Y170.F1     net (fanout=1)        0.626   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<3>
-    SLICE_X41Y170.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<3>1
-    SLICE_X37Y175.F1     net (fanout=8)        1.138   u1_plasma_top/u1_plasma/u1_cpu/reg_target<3>
-    SLICE_X37Y175.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<27>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<27>1
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<27>_f5
-    SLICE_X37Y184.F4     net (fanout=4)        0.678   u1_plasma_top/data_write<27>
-    SLICE_X37Y184.CLK    Tfck                  0.242   u1_plasma_top/u2_ddr/u2_ddr/data_write2<27>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_27_mux00011
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_27
-    -------------------------------------------------  ---------------------------
-    Total                                      6.823ns (1.692ns logic, 5.131ns route)
-                                                       (24.8% logic, 75.2% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     1.061ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_27 (FF)
-  Requirement:          12.631ns
-  Data Path Delay:      6.724ns (Levels of Logic = 6)
-  Clock Path Skew:      -4.422ns (0.161 - 4.583)
-  Source Clock:         u1_plasma_top/clk rising at 0.310ns
-  Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
-  Clock Uncertainty:    0.424ns
-
-  Clock Uncertainty:          0.424ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.000ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.607ns
-    Phase Error (PE):           0.120ns
-
-  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_27
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X37Y168.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<30>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30
-    SLICE_X41Y171.G3     net (fanout=28)       0.564   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<30>
-    SLICE_X41Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rt_index<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<0>2_SW0
-    SLICE_X39Y173.G1     net (fanout=5)        1.292   N270
-    SLICE_X39Y173.Y      Tilo                  0.165   N817
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
-    SLICE_X40Y171.F2     net (fanout=69)       0.750   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
-    SLICE_X40Y171.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit2a.SLICEM_F
-    SLICE_X41Y170.F1     net (fanout=1)        0.626   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<3>
-    SLICE_X41Y170.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<3>1
-    SLICE_X37Y175.F1     net (fanout=8)        1.138   u1_plasma_top/u1_plasma/u1_cpu/reg_target<3>
-    SLICE_X37Y175.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<27>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<27>1
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<27>_f5
-    SLICE_X37Y184.F4     net (fanout=4)        0.678   u1_plasma_top/data_write<27>
-    SLICE_X37Y184.CLK    Tfck                  0.242   u1_plasma_top/u2_ddr/u2_ddr/data_write2<27>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_27_mux00011
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_27
-    -------------------------------------------------  ---------------------------
-    Total                                      6.724ns (1.676ns logic, 5.048ns route)
-                                                       (24.9% logic, 75.1% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     1.120ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_23 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_27 (FF)
-  Requirement:          12.631ns
-  Data Path Delay:      6.710ns (Levels of Logic = 6)
-  Clock Path Skew:      -4.377ns (0.161 - 4.538)
-  Source Clock:         u1_plasma_top/clk rising at 0.310ns
-  Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
-  Clock Uncertainty:    0.424ns
-
-  Clock Uncertainty:          0.424ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.000ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.607ns
-    Phase Error (PE):           0.120ns
-
-  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_23 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_27
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X43Y171.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<23>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_23
-    SLICE_X41Y171.G1     net (fanout=23)       0.550   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<23>
-    SLICE_X41Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rt_index<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<0>2_SW0
-    SLICE_X39Y173.G1     net (fanout=5)        1.292   N270
-    SLICE_X39Y173.Y      Tilo                  0.165   N817
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
-    SLICE_X40Y171.F2     net (fanout=69)       0.750   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
-    SLICE_X40Y171.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[3].reg_bit2a.SLICEM_F
-    SLICE_X41Y170.F1     net (fanout=1)        0.626   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<3>
-    SLICE_X41Y170.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<3>1
-    SLICE_X37Y175.F1     net (fanout=8)        1.138   u1_plasma_top/u1_plasma/u1_cpu/reg_target<3>
-    SLICE_X37Y175.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<27>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<27>1
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<27>_f5
-    SLICE_X37Y184.F4     net (fanout=4)        0.678   u1_plasma_top/data_write<27>
-    SLICE_X37Y184.CLK    Tfck                  0.242   u1_plasma_top/u2_ddr/u2_ddr/data_write2<27>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_27_mux00011
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_27
-    -------------------------------------------------  ---------------------------
-    Total                                      6.710ns (1.676ns logic, 5.034ns route)
-                                                       (25.0% logic, 75.0% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_28 (SLICE_X36Y181.G2), 1282 paths
---------------------------------------------------------------------------------
-Slack (setup path):     1.285ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_28 (FF)
-  Requirement:          12.631ns
-  Data Path Delay:      6.510ns (Levels of Logic = 7)
-  Clock Path Skew:      -4.412ns (0.156 - 4.568)
-  Source Clock:         u1_plasma_top/clk rising at 0.310ns
-  Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
-  Clock Uncertainty:    0.424ns
-
-  Clock Uncertainty:          0.424ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.000ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.607ns
-    Phase Error (PE):           0.120ns
-
-  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X38Y164.YQ     Tcko                  0.307   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<27>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26
-    SLICE_X41Y171.G2     net (fanout=29)       0.647   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<26>
-    SLICE_X41Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rt_index<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<0>2_SW0
-    SLICE_X39Y173.G1     net (fanout=5)        1.292   N270
-    SLICE_X39Y173.Y      Tilo                  0.165   N817
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
-    SLICE_X39Y170.F4     net (fanout=69)       0.348   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
-    SLICE_X39Y170.X      Tilo                  0.165   N268
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2_SW0
-    SLICE_X39Y171.G3     net (fanout=1)        0.193   N268
-    SLICE_X39Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<23>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2
-    SLICE_X37Y173.F1     net (fanout=10)       1.024   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/N5
-    SLICE_X37Y173.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<28>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<28>1
-    SLICE_X37Y179.F1     net (fanout=4)        0.645   u1_plasma_top/u1_plasma/u1_cpu/reg_target<28>
-    SLICE_X37Y179.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<28>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>1
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>_f5
-    SLICE_X36Y181.G2     net (fanout=4)        0.525   u1_plasma_top/data_write<28>
-    SLICE_X36Y181.CLK    Tgck                  0.222   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_28_mux00011
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
-    -------------------------------------------------  ---------------------------
-    Total                                      6.510ns (1.836ns logic, 4.674ns route)
-                                                       (28.2% logic, 71.8% route)
-
---------------------------------------------------------------------------------
-Slack (setup path):     1.339ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_3 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_28 (FF)
-  Requirement:          12.631ns
-  Data Path Delay:      6.477ns (Levels of Logic = 7)
-  Clock Path Skew:      -4.391ns (0.156 - 4.547)
-  Source Clock:         u1_plasma_top/clk rising at 0.310ns
-  Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
-  Clock Uncertainty:    0.424ns
-
-  Clock Uncertainty:          0.424ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.000ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.607ns
-    Phase Error (PE):           0.120ns
-
-  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_3 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X43Y165.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_3
-    SLICE_X41Y167.G1     net (fanout=19)       0.548   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<3>
-    SLICE_X41Y167.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func<0>144
+    SLICE_X55Y167.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+    SLICE_X55Y164.G1     net (fanout=1)        0.732   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+    SLICE_X55Y164.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func<0>144
                                                        u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000_SW0_SW0
-    SLICE_X39Y172.G4     net (fanout=3)        0.951   N679
-    SLICE_X39Y172.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rt_index<2>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000_2
-    SLICE_X41Y170.G2     net (fanout=5)        0.461   u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or00001
-    SLICE_X41Y170.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<4>1
-    SLICE_X39Y171.G2     net (fanout=35)       0.503   u1_plasma_top/u1_plasma/u1_cpu/rt_index<4>
-    SLICE_X39Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<23>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2
-    SLICE_X37Y173.F1     net (fanout=10)       1.024   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/N5
-    SLICE_X37Y173.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<28>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<28>1
-    SLICE_X37Y179.F1     net (fanout=4)        0.645   u1_plasma_top/u1_plasma/u1_cpu/reg_target<28>
-    SLICE_X37Y179.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<28>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>1
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>_f5
-    SLICE_X36Y181.G2     net (fanout=4)        0.525   u1_plasma_top/data_write<28>
-    SLICE_X36Y181.CLK    Tgck                  0.222   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_28_mux00011
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
+    SLICE_X55Y168.G3     net (fanout=1)        0.349   N679
+    SLICE_X55Y168.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rs_index<3>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000
+    SLICE_X44Y130.G1     net (fanout=160)      2.555   u1_plasma_top/u1_plasma/u1_cpu/exception_sig
+    SLICE_X44Y130.Y      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rs_index<1>
+    SLICE_X44Y128.F2     net (fanout=5)        0.464   u1_plasma_top/u1_plasma/u1_cpu/rs_index<1>
+    SLICE_X44Y128.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>1
+    SLICE_X18Y173.F2     net (fanout=50)       3.278   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>
+    SLICE_X18Y173.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out1A<31>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit1a.SLICEM_F
+    SLICE_X36Y172.G2     net (fanout=1)        1.559   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out1A<31>
+    SLICE_X36Y172.Y      Tilo                  0.166   N1021
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_source_out<31>1
+    SLICE_X37Y139.G4     net (fanout=4)        0.869   u1_plasma_top/u1_plasma/u1_cpu/reg_source<31>
+    SLICE_X37Y139.COUT   Topcyg                0.476   u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_cy<15>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_lut<15>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_cy<15>
+    SLICE_X38Y189.G2     net (fanout=18)       3.231   u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_cy<15>
+    SLICE_X38Y189.Y      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/N20
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<29>21
+    SLICE_X34Y151.F3     net (fanout=7)        1.203   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/N13
+    SLICE_X34Y151.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>21
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>21
+    SLICE_X36Y206.F4     net (fanout=1)        1.474   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>21
+    SLICE_X36Y206.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg<26>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>32
+    SLICE_X39Y207.G3     net (fanout=1)        0.371   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>
+    SLICE_X39Y207.Y      Tilo                  0.165   N1387
+                                                       u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_access_cmp_eq000073
+    SLICE_X37Y202.F1     net (fanout=2)        0.672   u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_access_cmp_eq000073
+    SLICE_X37Y202.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg<30>
+                                                       u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_access_cmp_eq0000154_SW1_SW0
+    SLICE_X49Y180.G2     net (fanout=11)       1.633   N786
+    SLICE_X49Y180.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/cache_ram_data_w<20>
+                                                       u1_plasma_top/u1_plasma/Mmux_cache_ram_data_w1011
+    SLICE_X18Y166.G2     net (fanout=16)       1.556   u1_plasma_top/u1_plasma/N0
+    SLICE_X18Y166.Y      Tilo                  0.166   u1_plasma_top/u1_plasma/cache_ram_data_w<5>
+                                                       u1_plasma_top/u1_plasma/Mmux_cache_ram_data_w561
+    RAMB16_X3Y19.DIA5    net (fanout=1)        1.556   u1_plasma_top/u1_plasma/cache_ram_data_w<5>
+    RAMB16_X3Y19.CLKA    Trdck_DIA             0.200   u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0
+                                                       u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0
     -------------------------------------------------  ---------------------------
-    Total                                      6.477ns (1.820ns logic, 4.657ns route)
-                                                       (28.1% logic, 71.9% route)
+    Total                                     24.622ns (3.120ns logic, 21.502ns route)
+                                                       (12.7% logic, 87.3% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     1.369ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30 (FF)
+Slack (setup path):     0.727ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1 (FF)
+  Destination:          u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0 (RAM)
+  Requirement:          25.263ns
+  Data Path Delay:      24.536ns (Levels of Logic = 14)
+  Clock Path Skew:      0.000ns
+  Source Clock:         u1_plasma_top/clk rising at 0.310ns
+  Destination Clock:    u1_plasma_top/clk rising at 25.573ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1 to u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X53Y168.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1
+    SLICE_X55Y169.G4     net (fanout=1)        0.537   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1
+    SLICE_X55Y169.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq0034
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq000011
+    SLICE_X55Y168.G2     net (fanout=13)       0.458   u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index_and0000
+    SLICE_X55Y168.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rs_index<3>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000
+    SLICE_X44Y130.G1     net (fanout=160)      2.555   u1_plasma_top/u1_plasma/u1_cpu/exception_sig
+    SLICE_X44Y130.Y      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rs_index<1>
+    SLICE_X44Y128.F2     net (fanout=5)        0.464   u1_plasma_top/u1_plasma/u1_cpu/rs_index<1>
+    SLICE_X44Y128.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>1
+    SLICE_X18Y173.F2     net (fanout=50)       3.278   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>
+    SLICE_X18Y173.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out1A<31>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit1a.SLICEM_F
+    SLICE_X36Y172.G2     net (fanout=1)        1.559   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out1A<31>
+    SLICE_X36Y172.Y      Tilo                  0.166   N1021
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_source_out<31>1
+    SLICE_X37Y139.G4     net (fanout=4)        0.869   u1_plasma_top/u1_plasma/u1_cpu/reg_source<31>
+    SLICE_X37Y139.COUT   Topcyg                0.476   u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_cy<15>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_lut<15>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_cy<15>
+    SLICE_X38Y189.G2     net (fanout=18)       3.231   u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_cy<15>
+    SLICE_X38Y189.Y      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/N20
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<29>21
+    SLICE_X34Y151.F3     net (fanout=7)        1.203   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/N13
+    SLICE_X34Y151.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>21
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>21
+    SLICE_X36Y206.F4     net (fanout=1)        1.474   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>21
+    SLICE_X36Y206.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg<26>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>32
+    SLICE_X39Y207.G3     net (fanout=1)        0.371   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>
+    SLICE_X39Y207.Y      Tilo                  0.165   N1387
+                                                       u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_access_cmp_eq000073
+    SLICE_X37Y202.F1     net (fanout=2)        0.672   u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_access_cmp_eq000073
+    SLICE_X37Y202.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg<30>
+                                                       u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_access_cmp_eq0000154_SW1_SW0
+    SLICE_X49Y180.G2     net (fanout=11)       1.633   N786
+    SLICE_X49Y180.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/cache_ram_data_w<20>
+                                                       u1_plasma_top/u1_plasma/Mmux_cache_ram_data_w1011
+    SLICE_X18Y166.G2     net (fanout=16)       1.556   u1_plasma_top/u1_plasma/N0
+    SLICE_X18Y166.Y      Tilo                  0.166   u1_plasma_top/u1_plasma/cache_ram_data_w<5>
+                                                       u1_plasma_top/u1_plasma/Mmux_cache_ram_data_w561
+    RAMB16_X3Y19.DIA5    net (fanout=1)        1.556   u1_plasma_top/u1_plasma/cache_ram_data_w<5>
+    RAMB16_X3Y19.CLKA    Trdck_DIA             0.200   u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0
+                                                       u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0
+    -------------------------------------------------  ---------------------------
+    Total                                     24.536ns (3.120ns logic, 21.416ns route)
+                                                       (12.7% logic, 87.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.777ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1 (FF)
+  Destination:          u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0 (RAM)
+  Requirement:          25.263ns
+  Data Path Delay:      24.486ns (Levels of Logic = 14)
+  Clock Path Skew:      0.000ns
+  Source Clock:         u1_plasma_top/clk rising at 0.310ns
+  Destination Clock:    u1_plasma_top/clk rising at 25.573ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1 to u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X55Y170.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1
+    SLICE_X55Y169.G1     net (fanout=1)        0.487   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1
+    SLICE_X55Y169.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq0034
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq000011
+    SLICE_X55Y168.G2     net (fanout=13)       0.458   u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index_and0000
+    SLICE_X55Y168.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rs_index<3>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000
+    SLICE_X44Y130.G1     net (fanout=160)      2.555   u1_plasma_top/u1_plasma/u1_cpu/exception_sig
+    SLICE_X44Y130.Y      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rs_index<1>
+    SLICE_X44Y128.F2     net (fanout=5)        0.464   u1_plasma_top/u1_plasma/u1_cpu/rs_index<1>
+    SLICE_X44Y128.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>1
+    SLICE_X18Y173.F2     net (fanout=50)       3.278   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/addr_read1<1>
+    SLICE_X18Y173.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out1A<31>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[31].reg_bit1a.SLICEM_F
+    SLICE_X36Y172.G2     net (fanout=1)        1.559   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out1A<31>
+    SLICE_X36Y172.Y      Tilo                  0.166   N1021
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_source_out<31>1
+    SLICE_X37Y139.G4     net (fanout=4)        0.869   u1_plasma_top/u1_plasma/u1_cpu/reg_source<31>
+    SLICE_X37Y139.COUT   Topcyg                0.476   u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_cy<15>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_lut<15>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_cy<15>
+    SLICE_X38Y189.G2     net (fanout=18)       3.231   u1_plasma_top/u1_plasma/u1_cpu/u5_bus_mux/Mcompar_is_equal_cmp_eq0000_cy<15>
+    SLICE_X38Y189.Y      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/N20
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<29>21
+    SLICE_X34Y151.F3     net (fanout=7)        1.203   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/N13
+    SLICE_X34Y151.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>21
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>21
+    SLICE_X36Y206.F4     net (fanout=1)        1.474   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>21
+    SLICE_X36Y206.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_reg<26>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>32
+    SLICE_X39Y207.G3     net (fanout=1)        0.371   u1_plasma_top/u1_plasma/u1_cpu/u1_pc_next/pc_next_mux0001<24>
+    SLICE_X39Y207.Y      Tilo                  0.165   N1387
+                                                       u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_access_cmp_eq000073
+    SLICE_X37Y202.F1     net (fanout=2)        0.672   u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_access_cmp_eq000073
+    SLICE_X37Y202.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/address_reg<30>
+                                                       u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_access_cmp_eq0000154_SW1_SW0
+    SLICE_X49Y180.G2     net (fanout=11)       1.633   N786
+    SLICE_X49Y180.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/cache_ram_data_w<20>
+                                                       u1_plasma_top/u1_plasma/Mmux_cache_ram_data_w1011
+    SLICE_X18Y166.G2     net (fanout=16)       1.556   u1_plasma_top/u1_plasma/N0
+    SLICE_X18Y166.Y      Tilo                  0.166   u1_plasma_top/u1_plasma/cache_ram_data_w<5>
+                                                       u1_plasma_top/u1_plasma/Mmux_cache_ram_data_w561
+    RAMB16_X3Y19.DIA5    net (fanout=1)        1.556   u1_plasma_top/u1_plasma/cache_ram_data_w<5>
+    RAMB16_X3Y19.CLKA    Trdck_DIA             0.200   u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0
+                                                       u1_plasma_top/u1_plasma/opt_cache2.u_cache/cache_data/block0.ram_byte0
+    -------------------------------------------------  ---------------------------
+    Total                                     24.486ns (3.120ns logic, 21.366ns route)
+                                                       (12.7% logic, 87.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_28 (SLICE_X53Y182.G1), 1282 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.651ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1 (FF)
   Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_28 (FF)
   Requirement:          12.631ns
-  Data Path Delay:      6.411ns (Levels of Logic = 7)
-  Clock Path Skew:      -4.427ns (0.156 - 4.583)
+  Data Path Delay:      7.140ns (Levels of Logic = 7)
+  Clock Path Skew:      -4.416ns (-0.123 - 4.293)
   Source Clock:         u1_plasma_top/clk rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
   Clock Uncertainty:    0.424ns
@@ -790,96 +750,46 @@ Slack (setup path):     1.369ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.120ns
 
-  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
+  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X37Y168.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<30>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30
-    SLICE_X41Y171.G3     net (fanout=28)       0.564   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<30>
-    SLICE_X41Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rt_index<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<0>2_SW0
-    SLICE_X39Y173.G1     net (fanout=5)        1.292   N270
-    SLICE_X39Y173.Y      Tilo                  0.165   N817
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
-    SLICE_X39Y170.F4     net (fanout=69)       0.348   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
-    SLICE_X39Y170.X      Tilo                  0.165   N268
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2_SW0
-    SLICE_X39Y171.G3     net (fanout=1)        0.193   N268
-    SLICE_X39Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<23>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2
-    SLICE_X37Y173.F1     net (fanout=10)       1.024   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/N5
-    SLICE_X37Y173.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<28>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<28>1
-    SLICE_X37Y179.F1     net (fanout=4)        0.645   u1_plasma_top/u1_plasma/u1_cpu/reg_target<28>
-    SLICE_X37Y179.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<28>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>1
+    SLICE_X55Y167.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+    SLICE_X55Y164.G1     net (fanout=1)        0.732   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+    SLICE_X55Y164.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func<0>144
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000_SW0_SW0
+    SLICE_X55Y168.G3     net (fanout=1)        0.349   N679
+    SLICE_X55Y168.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rs_index<3>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000
+    SLICE_X57Y175.G2     net (fanout=160)      0.674   u1_plasma_top/u1_plasma/u1_cpu/exception_sig
+    SLICE_X57Y175.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/mem_source<2>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/mem_source_out<0>11
+    SLICE_X57Y176.G1     net (fanout=10)       1.076   u1_plasma_top/u1_plasma/u1_cpu/u3_control/N64
+    SLICE_X57Y176.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_cmp_eq0000
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/mem_source_out<0>2
+    SLICE_X56Y176.G1     net (fanout=22)       0.506   u1_plasma_top/u1_plasma/u1_cpu/mem_source<0>
+    SLICE_X56Y176.Y      Tilo                  0.166   u1_plasma_top/data_write<21>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<16>11
+    SLICE_X53Y169.G3     net (fanout=24)       0.939   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/N20
+    SLICE_X53Y169.XMUX   Tif5x                 0.488   u1_plasma_top/data_write<28>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>2
                                                        u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>_f5
-    SLICE_X36Y181.G2     net (fanout=4)        0.525   u1_plasma_top/data_write<28>
-    SLICE_X36Y181.CLK    Tgck                  0.222   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
+    SLICE_X53Y182.G1     net (fanout=4)        1.020   u1_plasma_top/data_write<28>
+    SLICE_X53Y182.CLK    Tgck                  0.239   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
                                                        u1_plasma_top/u2_ddr/u2_ddr/data_write2_28_mux00011
                                                        u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
     -------------------------------------------------  ---------------------------
-    Total                                      6.411ns (1.820ns logic, 4.591ns route)
-                                                       (28.4% logic, 71.6% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_29 (SLICE_X36Y181.F1), 1282 paths
---------------------------------------------------------------------------------
-Slack (setup path):     1.325ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_29 (FF)
-  Requirement:          12.631ns
-  Data Path Delay:      6.470ns (Levels of Logic = 6)
-  Clock Path Skew:      -4.412ns (0.156 - 4.568)
-  Source Clock:         u1_plasma_top/clk rising at 0.310ns
-  Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
-  Clock Uncertainty:    0.424ns
-
-  Clock Uncertainty:          0.424ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter (TSJ):  0.000ns
-    Total Input Jitter (TIJ):   0.000ns
-    Discrete Jitter (DJ):       0.607ns
-    Phase Error (PE):           0.120ns
-
-  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X38Y164.YQ     Tcko                  0.307   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<27>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_26
-    SLICE_X41Y171.G2     net (fanout=29)       0.647   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<26>
-    SLICE_X41Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rt_index<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<0>2_SW0
-    SLICE_X39Y173.G1     net (fanout=5)        1.292   N270
-    SLICE_X39Y173.Y      Tilo                  0.165   N817
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
-    SLICE_X38Y177.F2     net (fanout=69)       1.219   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
-    SLICE_X38Y177.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<13>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit2a.SLICEM_F
-    SLICE_X37Y174.F1     net (fanout=1)        0.521   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<13>
-    SLICE_X37Y174.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<13>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<13>1
-    SLICE_X38Y180.G3     net (fanout=4)        0.542   u1_plasma_top/u1_plasma/u1_cpu/reg_target<13>
-    SLICE_X38Y180.XMUX   Tif5x                 0.477   u1_plasma_top/data_write<29>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>2
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>_f5
-    SLICE_X36Y181.F1     net (fanout=4)        0.580   u1_plasma_top/data_write<29>
-    SLICE_X36Y181.CLK    Tfck                  0.224   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_29_mux00011
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
-    -------------------------------------------------  ---------------------------
-    Total                                      6.470ns (1.669ns logic, 4.801ns route)
+    Total                                      7.140ns (1.844ns logic, 5.296ns route)
                                                        (25.8% logic, 74.2% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     1.409ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_29 (FF)
+Slack (setup path):     0.660ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_28 (FF)
   Requirement:          12.631ns
-  Data Path Delay:      6.371ns (Levels of Logic = 6)
-  Clock Path Skew:      -4.427ns (0.156 - 4.583)
+  Data Path Delay:      7.131ns (Levels of Logic = 7)
+  Clock Path Skew:      -4.416ns (-0.123 - 4.293)
   Source Clock:         u1_plasma_top/clk rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
   Clock Uncertainty:    0.424ns
@@ -890,43 +800,46 @@ Slack (setup path):     1.409ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.120ns
 
-  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
+  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X37Y168.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<30>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_30
-    SLICE_X41Y171.G3     net (fanout=28)       0.564   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<30>
-    SLICE_X41Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rt_index<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<0>2_SW0
-    SLICE_X39Y173.G1     net (fanout=5)        1.292   N270
-    SLICE_X39Y173.Y      Tilo                  0.165   N817
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
-    SLICE_X38Y177.F2     net (fanout=69)       1.219   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
-    SLICE_X38Y177.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<13>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit2a.SLICEM_F
-    SLICE_X37Y174.F1     net (fanout=1)        0.521   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<13>
-    SLICE_X37Y174.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<13>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<13>1
-    SLICE_X38Y180.G3     net (fanout=4)        0.542   u1_plasma_top/u1_plasma/u1_cpu/reg_target<13>
-    SLICE_X38Y180.XMUX   Tif5x                 0.477   u1_plasma_top/data_write<29>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>2
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>_f5
-    SLICE_X36Y181.F1     net (fanout=4)        0.580   u1_plasma_top/data_write<29>
-    SLICE_X36Y181.CLK    Tfck                  0.224   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_29_mux00011
-                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
+    SLICE_X55Y167.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+    SLICE_X55Y164.G1     net (fanout=1)        0.732   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+    SLICE_X55Y164.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func<0>144
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000_SW0_SW0
+    SLICE_X55Y168.G3     net (fanout=1)        0.349   N679
+    SLICE_X55Y168.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rs_index<3>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000
+    SLICE_X57Y175.G2     net (fanout=160)      0.674   u1_plasma_top/u1_plasma/u1_cpu/exception_sig
+    SLICE_X57Y175.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/mem_source<2>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/mem_source_out<0>11
+    SLICE_X57Y176.G1     net (fanout=10)       1.076   u1_plasma_top/u1_plasma/u1_cpu/u3_control/N64
+    SLICE_X57Y176.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_cmp_eq0000
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/mem_source_out<0>2
+    SLICE_X56Y176.G1     net (fanout=22)       0.506   u1_plasma_top/u1_plasma/u1_cpu/mem_source<0>
+    SLICE_X56Y176.Y      Tilo                  0.166   u1_plasma_top/data_write<21>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<16>11
+    SLICE_X53Y169.F3     net (fanout=24)       0.936   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/N20
+    SLICE_X53Y169.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<28>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>_f5
+    SLICE_X53Y182.G1     net (fanout=4)        1.020   u1_plasma_top/data_write<28>
+    SLICE_X53Y182.CLK    Tgck                  0.239   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_28_mux00011
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
     -------------------------------------------------  ---------------------------
-    Total                                      6.371ns (1.653ns logic, 4.718ns route)
-                                                       (25.9% logic, 74.1% route)
+    Total                                      7.131ns (1.838ns logic, 5.293ns route)
+                                                       (25.8% logic, 74.2% route)
 
 --------------------------------------------------------------------------------
-Slack (setup path):     1.468ns (requirement - (data path - clock path skew + uncertainty))
-  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_23 (FF)
-  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_29 (FF)
+Slack (setup path):     0.739ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_28 (FF)
   Requirement:          12.631ns
-  Data Path Delay:      6.357ns (Levels of Logic = 6)
-  Clock Path Skew:      -4.382ns (0.156 - 4.538)
+  Data Path Delay:      7.054ns (Levels of Logic = 7)
+  Clock Path Skew:      -4.414ns (-0.123 - 4.291)
   Source Clock:         u1_plasma_top/clk rising at 0.310ns
   Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
   Clock Uncertainty:    0.424ns
@@ -937,35 +850,200 @@ Slack (setup path):     1.468ns (requirement - (data path - clock path skew + un
     Discrete Jitter (DJ):       0.607ns
     Phase Error (PE):           0.120ns
 
-  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_23 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
+  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X43Y171.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<23>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_23
-    SLICE_X41Y171.G1     net (fanout=23)       0.550   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<23>
-    SLICE_X41Y171.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rt_index<3>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<0>2_SW0
-    SLICE_X39Y173.G1     net (fanout=5)        1.292   N270
-    SLICE_X39Y173.Y      Tilo                  0.165   N817
+    SLICE_X53Y168.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1
+    SLICE_X55Y169.G4     net (fanout=1)        0.537   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1
+    SLICE_X55Y169.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq0034
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq000011
+    SLICE_X55Y168.G2     net (fanout=13)       0.458   u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index_and0000
+    SLICE_X55Y168.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rs_index<3>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000
+    SLICE_X57Y175.G2     net (fanout=160)      0.674   u1_plasma_top/u1_plasma/u1_cpu/exception_sig
+    SLICE_X57Y175.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/mem_source<2>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/mem_source_out<0>11
+    SLICE_X57Y176.G1     net (fanout=10)       1.076   u1_plasma_top/u1_plasma/u1_cpu/u3_control/N64
+    SLICE_X57Y176.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_cmp_eq0000
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/mem_source_out<0>2
+    SLICE_X56Y176.G1     net (fanout=22)       0.506   u1_plasma_top/u1_plasma/u1_cpu/mem_source<0>
+    SLICE_X56Y176.Y      Tilo                  0.166   u1_plasma_top/data_write<21>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<16>11
+    SLICE_X53Y169.G3     net (fanout=24)       0.939   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/N20
+    SLICE_X53Y169.XMUX   Tif5x                 0.488   u1_plasma_top/data_write<28>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>2
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<28>_f5
+    SLICE_X53Y182.G1     net (fanout=4)        1.020   u1_plasma_top/data_write<28>
+    SLICE_X53Y182.CLK    Tgck                  0.239   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_28_mux00011
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_28
+    -------------------------------------------------  ---------------------------
+    Total                                      7.054ns (1.844ns logic, 5.210ns route)
+                                                       (26.1% logic, 73.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_plasma_top/u2_ddr/u2_ddr/data_write2_29 (SLICE_X53Y182.F2), 1282 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.891ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_29 (FF)
+  Requirement:          12.631ns
+  Data Path Delay:      6.900ns (Levels of Logic = 8)
+  Clock Path Skew:      -4.416ns (-0.123 - 4.293)
+  Source Clock:         u1_plasma_top/clk rising at 0.310ns
+  Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
+  Clock Uncertainty:    0.424ns
+
+  Clock Uncertainty:          0.424ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.000ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.607ns
+    Phase Error (PE):           0.120ns
+
+  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X55Y167.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+    SLICE_X55Y164.G1     net (fanout=1)        0.732   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_1_1
+    SLICE_X55Y164.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func<0>144
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000_SW0_SW0
+    SLICE_X55Y168.G3     net (fanout=1)        0.349   N679
+    SLICE_X55Y168.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rs_index<3>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000
+    SLICE_X57Y170.G3     net (fanout=160)      0.402   u1_plasma_top/u1_plasma/u1_cpu/exception_sig
+    SLICE_X57Y170.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_or000052
                                                        u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
-    SLICE_X38Y177.F2     net (fanout=69)       1.219   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
-    SLICE_X38Y177.X      Tilo                  0.166   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<13>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_loop[13].reg_bit2a.SLICEM_F
-    SLICE_X37Y174.F1     net (fanout=1)        0.521   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/data_out2A<13>
-    SLICE_X37Y174.X      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<13>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<13>1
-    SLICE_X38Y180.G3     net (fanout=4)        0.542   u1_plasma_top/u1_plasma/u1_cpu/reg_target<13>
-    SLICE_X38Y180.XMUX   Tif5x                 0.477   u1_plasma_top/data_write<29>
-                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>2
+    SLICE_X57Y168.F2     net (fanout=69)       0.568   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
+    SLICE_X57Y168.X      Tilo                  0.165   N268
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2_SW0
+    SLICE_X57Y173.G3     net (fanout=1)        0.669   N268
+    SLICE_X57Y173.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<23>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2
+    SLICE_X57Y172.G1     net (fanout=10)       0.363   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/N5
+    SLICE_X57Y172.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_or0000114
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<29>1
+    SLICE_X59Y179.F3     net (fanout=4)        0.977   u1_plasma_top/u1_plasma/u1_cpu/reg_target<29>
+    SLICE_X59Y179.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<29>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>1
                                                        u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>_f5
-    SLICE_X36Y181.F1     net (fanout=4)        0.580   u1_plasma_top/data_write<29>
-    SLICE_X36Y181.CLK    Tfck                  0.224   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
+    SLICE_X53Y182.F2     net (fanout=4)        0.835   u1_plasma_top/data_write<29>
+    SLICE_X53Y182.CLK    Tfck                  0.242   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
                                                        u1_plasma_top/u2_ddr/u2_ddr/data_write2_29_mux00011
                                                        u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
     -------------------------------------------------  ---------------------------
-    Total                                      6.357ns (1.653ns logic, 4.704ns route)
-                                                       (26.0% logic, 74.0% route)
+    Total                                      6.900ns (2.005ns logic, 4.895ns route)
+                                                       (29.1% logic, 70.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.979ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_29 (FF)
+  Requirement:          12.631ns
+  Data Path Delay:      6.814ns (Levels of Logic = 8)
+  Clock Path Skew:      -4.414ns (-0.123 - 4.291)
+  Source Clock:         u1_plasma_top/clk rising at 0.310ns
+  Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
+  Clock Uncertainty:    0.424ns
+
+  Clock Uncertainty:          0.424ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.000ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.607ns
+    Phase Error (PE):           0.120ns
+
+  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X53Y168.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1
+    SLICE_X55Y169.G4     net (fanout=1)        0.537   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_29_1
+    SLICE_X55Y169.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq0034
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq000011
+    SLICE_X55Y168.G2     net (fanout=13)       0.458   u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index_and0000
+    SLICE_X55Y168.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rs_index<3>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000
+    SLICE_X57Y170.G3     net (fanout=160)      0.402   u1_plasma_top/u1_plasma/u1_cpu/exception_sig
+    SLICE_X57Y170.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_or000052
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
+    SLICE_X57Y168.F2     net (fanout=69)       0.568   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
+    SLICE_X57Y168.X      Tilo                  0.165   N268
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2_SW0
+    SLICE_X57Y173.G3     net (fanout=1)        0.669   N268
+    SLICE_X57Y173.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<23>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2
+    SLICE_X57Y172.G1     net (fanout=10)       0.363   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/N5
+    SLICE_X57Y172.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_or0000114
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<29>1
+    SLICE_X59Y179.F3     net (fanout=4)        0.977   u1_plasma_top/u1_plasma/u1_cpu/reg_target<29>
+    SLICE_X59Y179.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<29>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>_f5
+    SLICE_X53Y182.F2     net (fanout=4)        0.835   u1_plasma_top/data_write<29>
+    SLICE_X53Y182.CLK    Tfck                  0.242   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_29_mux00011
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
+    -------------------------------------------------  ---------------------------
+    Total                                      6.814ns (2.005ns logic, 4.809ns route)
+                                                       (29.4% logic, 70.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.034ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1 (FF)
+  Destination:          u1_plasma_top/u2_ddr/u2_ddr/data_write2_29 (FF)
+  Requirement:          12.631ns
+  Data Path Delay:      6.764ns (Levels of Logic = 8)
+  Clock Path Skew:      -4.409ns (-0.123 - 4.286)
+  Source Clock:         u1_plasma_top/clk rising at 0.310ns
+  Destination Clock:    u1_plasma_top/clk_2x falling at 12.941ns
+  Clock Uncertainty:    0.424ns
+
+  Clock Uncertainty:          0.424ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.000ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.607ns
+    Phase Error (PE):           0.120ns
+
+  Maximum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1 to u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X55Y170.XQ     Tcko                  0.291   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1
+    SLICE_X55Y169.G1     net (fanout=1)        0.487   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_28_1
+    SLICE_X55Y169.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq0034
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/alu_func_cmp_eq000011
+    SLICE_X55Y168.G2     net (fanout=13)       0.458   u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index_and0000
+    SLICE_X55Y168.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/rs_index<3>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/exception_out_or0000
+    SLICE_X57Y170.G3     net (fanout=160)      0.402   u1_plasma_top/u1_plasma/u1_cpu/exception_sig
+    SLICE_X57Y170.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_or000052
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u3_control/rt_index<1>1
+    SLICE_X57Y168.F2     net (fanout=69)       0.568   u1_plasma_top/u1_plasma/u1_cpu/rt_index<1>
+    SLICE_X57Y168.X      Tilo                  0.165   N268
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2_SW0
+    SLICE_X57Y173.G3     net (fanout=1)        0.669   N268
+    SLICE_X57Y173.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/reg_target<23>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<0>2
+    SLICE_X57Y172.G1     net (fanout=10)       0.363   u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/N5
+    SLICE_X57Y172.Y      Tilo                  0.165   u1_plasma_top/u1_plasma/u1_cpu/u9_pipeline/b_busD_or0000114
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u4_reg_bank/reg_target_out<29>1
+    SLICE_X59Y179.F3     net (fanout=4)        0.977   u1_plasma_top/u1_plasma/u1_cpu/reg_target<29>
+    SLICE_X59Y179.XMUX   Tif5x                 0.482   u1_plasma_top/data_write<29>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>1
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/data_w<29>_f5
+    SLICE_X53Y182.F2     net (fanout=4)        0.835   u1_plasma_top/data_write<29>
+    SLICE_X53Y182.CLK    Tfck                  0.242   u1_plasma_top/u2_ddr/u2_ddr/data_write2<29>
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_29_mux00011
+                                                       u1_plasma_top/u2_ddr/u2_ddr/data_write2_29
+    -------------------------------------------------  ---------------------------
+    Total                                      6.764ns (2.005ns logic, 4.759ns route)
+                                                       (29.6% logic, 70.4% route)
 
 --------------------------------------------------------------------------------
 
@@ -973,87 +1051,87 @@ Hold Paths: TS_clk = PERIOD TIMEGRP "clk" TS_u1_plasma_top_u0_clk_clk_2x_bufg_in
         0.31 ns HIGH 50%;
 --------------------------------------------------------------------------------
 
-Paths for end point u1_plasma_top/u1_plasma/u3_uart/data_save_reg_1 (SLICE_X70Y168.F4), 1 path
+Paths for end point u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_22 (SLICE_X59Y167.G4), 1 path
 --------------------------------------------------------------------------------
-Slack (hold path):      0.410ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               u1_plasma_top/u1_plasma/u3_uart/data_save_reg_10 (FF)
-  Destination:          u1_plasma_top/u1_plasma/u3_uart/data_save_reg_1 (FF)
+Slack (hold path):      0.434ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_22 (FF)
+  Destination:          u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_22 (FF)
   Requirement:          0.000ns
-  Data Path Delay:      0.410ns (Levels of Logic = 1)
+  Data Path Delay:      0.431ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.003ns (0.114 - 0.117)
+  Source Clock:         u1_plasma_top/clk rising at 25.573ns
+  Destination Clock:    u1_plasma_top/clk rising at 25.573ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_22 to u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_22
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X59Y164.XQ     Tcko                  0.268   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg<22>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg_22
+    SLICE_X59Y167.G4     net (fanout=1)        0.269   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/next_opcode_reg<22>
+    SLICE_X59Y167.CLK    Tckg        (-Th)     0.106   u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg<23>
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/Mmux_opcode_reg_mux0000641
+                                                       u1_plasma_top/u1_plasma/u1_cpu/u2_mem_ctrl/opcode_reg_22
+    -------------------------------------------------  ---------------------------
+    Total                                      0.431ns (0.162ns logic, 0.269ns route)
+                                                       (37.6% logic, 62.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_2 (SLICE_X76Y222.F4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.434ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_1 (FF)
+  Destination:          u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.434ns (Levels of Logic = 1)
   Clock Path Skew:      0.000ns
   Source Clock:         u1_plasma_top/clk rising at 25.573ns
   Destination Clock:    u1_plasma_top/clk rising at 25.573ns
   Clock Uncertainty:    0.000ns
 
-  Minimum Data Path: u1_plasma_top/u1_plasma/u3_uart/data_save_reg_10 to u1_plasma_top/u1_plasma/u3_uart/data_save_reg_1
+  Minimum Data Path: u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_1 to u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_2
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X71Y168.YQ     Tcko                  0.268   u1_plasma_top/u1_plasma/u3_uart/data_save_reg<11>
-                                                       u1_plasma_top/u1_plasma/u3_uart/data_save_reg_10
-    SLICE_X70Y168.F4     net (fanout=1)        0.262   u1_plasma_top/u1_plasma/u3_uart/data_save_reg<10>
-    SLICE_X70Y168.CLK    Tckf        (-Th)     0.120   u1_plasma_top/u1_plasma/u3_uart/data_save_reg<1>
-                                                       u1_plasma_top/u1_plasma/u3_uart/data_save_reg_1_mux00001
-                                                       u1_plasma_top/u1_plasma/u3_uart/data_save_reg_1
+    SLICE_X77Y223.XQ     Tcko                  0.268   u1_plasma_top/u1_plasma/u3_uart/delay_write_reg<1>
+                                                       u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_1
+    SLICE_X76Y222.F4     net (fanout=5)        0.286   u1_plasma_top/u1_plasma/u3_uart/delay_write_reg<1>
+    SLICE_X76Y222.CLK    Tckf        (-Th)     0.120   u1_plasma_top/u1_plasma/u3_uart/delay_write_reg<2>
+                                                       u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_mux0001<7>1
+                                                       u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_2
     -------------------------------------------------  ---------------------------
-    Total                                      0.410ns (0.148ns logic, 0.262ns route)
-                                                       (36.1% logic, 63.9% route)
+    Total                                      0.434ns (0.148ns logic, 0.286ns route)
+                                                       (34.1% logic, 65.9% route)
 
 --------------------------------------------------------------------------------
 
-Paths for end point u1_plasma_top/u1_plasma/u3_uart/data_save_reg_3 (SLICE_X70Y169.F4), 1 path
+Paths for end point u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_8 (SLICE_X76Y226.F4), 1 path
 --------------------------------------------------------------------------------
-Slack (hold path):      0.410ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               u1_plasma_top/u1_plasma/u3_uart/data_save_reg_12 (FF)
-  Destination:          u1_plasma_top/u1_plasma/u3_uart/data_save_reg_3 (FF)
+Slack (hold path):      0.438ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_7 (FF)
+  Destination:          u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_8 (FF)
   Requirement:          0.000ns
-  Data Path Delay:      0.410ns (Levels of Logic = 1)
+  Data Path Delay:      0.438ns (Levels of Logic = 1)
   Clock Path Skew:      0.000ns
   Source Clock:         u1_plasma_top/clk rising at 25.573ns
   Destination Clock:    u1_plasma_top/clk rising at 25.573ns
   Clock Uncertainty:    0.000ns
 
-  Minimum Data Path: u1_plasma_top/u1_plasma/u3_uart/data_save_reg_12 to u1_plasma_top/u1_plasma/u3_uart/data_save_reg_3
+  Minimum Data Path: u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_7 to u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_8
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    SLICE_X71Y169.YQ     Tcko                  0.268   u1_plasma_top/u1_plasma/u3_uart/data_save_reg<13>
-                                                       u1_plasma_top/u1_plasma/u3_uart/data_save_reg_12
-    SLICE_X70Y169.F4     net (fanout=1)        0.262   u1_plasma_top/u1_plasma/u3_uart/data_save_reg<12>
-    SLICE_X70Y169.CLK    Tckf        (-Th)     0.120   u1_plasma_top/u1_plasma/u3_uart/data_save_reg<3>
-                                                       u1_plasma_top/u1_plasma/u3_uart/data_save_reg_3_mux00001
-                                                       u1_plasma_top/u1_plasma/u3_uart/data_save_reg_3
+    SLICE_X77Y226.XQ     Tcko                  0.268   u1_plasma_top/u1_plasma/u3_uart/delay_write_reg<7>
+                                                       u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_7
+    SLICE_X76Y226.F4     net (fanout=4)        0.290   u1_plasma_top/u1_plasma/u3_uart/delay_write_reg<7>
+    SLICE_X76Y226.CLK    Tckf        (-Th)     0.120   u1_plasma_top/u1_plasma/u3_uart/delay_write_reg<8>
+                                                       u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_mux0001<1>1
+                                                       u1_plasma_top/u1_plasma/u3_uart/delay_write_reg_8
     -------------------------------------------------  ---------------------------
-    Total                                      0.410ns (0.148ns logic, 0.262ns route)
-                                                       (36.1% logic, 63.9% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point u1_plasma_top/u1_plasma/u3_uart/data_write_reg_7 (SLICE_X52Y179.F4), 1 path
---------------------------------------------------------------------------------
-Slack (hold path):      0.414ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               u1_plasma_top/u1_plasma/u3_uart/data_write_reg_8 (FF)
-  Destination:          u1_plasma_top/u1_plasma/u3_uart/data_write_reg_7 (FF)
-  Requirement:          0.000ns
-  Data Path Delay:      0.417ns (Levels of Logic = 1)
-  Clock Path Skew:      0.003ns (0.102 - 0.099)
-  Source Clock:         u1_plasma_top/clk rising at 25.573ns
-  Destination Clock:    u1_plasma_top/clk rising at 25.573ns
-  Clock Uncertainty:    0.000ns
-
-  Minimum Data Path: u1_plasma_top/u1_plasma/u3_uart/data_write_reg_8 to u1_plasma_top/u1_plasma/u3_uart/data_write_reg_7
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    SLICE_X53Y177.YQ     Tcko                  0.268   u1_plasma_top/u1_plasma/u3_uart/data_write_reg<8>
-                                                       u1_plasma_top/u1_plasma/u3_uart/data_write_reg_8
-    SLICE_X52Y179.F4     net (fanout=1)        0.269   u1_plasma_top/u1_plasma/u3_uart/data_write_reg<8>
-    SLICE_X52Y179.CLK    Tckf        (-Th)     0.120   u1_plasma_top/u1_plasma/u3_uart/data_write_reg<7>
-                                                       u1_plasma_top/u1_plasma/u3_uart/data_write_reg_mux0000<7>1
-                                                       u1_plasma_top/u1_plasma/u3_uart/data_write_reg_7
-    -------------------------------------------------  ---------------------------
-    Total                                      0.417ns (0.148ns logic, 0.269ns route)
-                                                       (35.5% logic, 64.5% route)
+    Total                                      0.438ns (0.148ns logic, 0.290ns route)
+                                                       (33.8% logic, 66.2% route)
 
 --------------------------------------------------------------------------------
 
@@ -1065,7 +1143,7 @@ Slack: 23.043ns (period - min period limit)
   Min period limit: 2.220ns (450.450MHz) (Trper_CLKA)
   Physical resource: u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte0/CLKA
   Logical resource: u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte0/CLKA
-  Location pin: RAMB16_X3Y19.CLKA
+  Location pin: RAMB16_X4Y18.CLKA
   Clock network: u1_plasma_top/clk
 --------------------------------------------------------------------------------
 Slack: 23.043ns (period - min period limit)
@@ -1073,7 +1151,7 @@ Slack: 23.043ns (period - min period limit)
   Min period limit: 2.220ns (450.450MHz) (Trper_CLKA)
   Physical resource: u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte1/CLKA
   Logical resource: u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte1/CLKA
-  Location pin: RAMB16_X3Y24.CLKA
+  Location pin: RAMB16_X3Y25.CLKA
   Clock network: u1_plasma_top/clk
 --------------------------------------------------------------------------------
 Slack: 23.043ns (period - min period limit)
@@ -1081,7 +1159,7 @@ Slack: 23.043ns (period - min period limit)
   Min period limit: 2.220ns (450.450MHz) (Trper_CLKA)
   Physical resource: u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte2/CLKA
   Logical resource: u1_plasma_top/u1_plasma/u2_boot_ram/block0.ram_byte2/CLKA
-  Location pin: RAMB16_X3Y21.CLKA
+  Location pin: RAMB16_X4Y20.CLKA
   Clock network: u1_plasma_top/clk
 --------------------------------------------------------------------------------
 
@@ -1093,10 +1171,10 @@ Derived Constraints for TS_board_clk
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_board_clk                   |     10.000ns|      6.666ns|      9.226ns|            0|            0|            0|     62596809|
-| TS_u1_plasma_top_u0_clk_clk_2x|     12.632ns|      5.553ns|     11.654ns|            0|            0|          117|     62596692|
+|TS_board_clk                   |     10.000ns|      6.666ns|      9.746ns|            0|            0|            0|     62602101|
+| TS_u1_plasma_top_u0_clk_clk_2x|     12.632ns|      6.720ns|     12.311ns|            0|            0|          117|     62601984|
 | _bufg_in                      |             |             |             |             |             |             |             |
-|  TS_clk                       |     25.263ns|     23.308ns|          N/A|            0|            0|     62596692|            0|
+|  TS_clk                       |     25.263ns|     24.622ns|          N/A|            0|            0|     62601984|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -1111,7 +1189,7 @@ Clock to Setup on destination clock sys_clk_pin
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-sys_clk_pin    |    6.384|         |    6.257|    2.640|
+sys_clk_pin    |    6.328|         |    5.791|    3.195|
 ---------------+---------+---------+---------+---------+
 
 
@@ -1120,16 +1198,16 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 62596809 paths, 0 nets, and 15571 connections
+Constraints cover 62602101 paths, 0 nets, and 15531 connections
 
 Design statistics:
-   Minimum period:  23.308ns{1}   (Maximum frequency:  42.904MHz)
+   Minimum period:  24.622ns{1}   (Maximum frequency:  40.614MHz)
 
 
 ------------------------------------Footnotes-----------------------------------
 1)  The minimum period statistic assumes all single cycle delays.
 
-Analysis completed Wed May 10 01:01:25 2017 
+Analysis completed Fri May 12 09:02:16 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
